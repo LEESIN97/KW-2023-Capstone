@@ -1,0 +1,5 @@
+[ 16%] Built target pose_estimation
+[ 33%] Built target tags
+[ 66%] Built target apriltag_node
+[35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m

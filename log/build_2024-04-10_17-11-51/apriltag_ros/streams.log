@@ -1,0 +1,52 @@
+[0.149s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs /usr/bin/cmake /home/hb/hb_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/apriltag_ros
+[1.805s] -- The C compiler identification is GNU 11.4.0
+[1.805s] -- The CXX compiler identification is GNU 11.4.0
+[1.806s] -- Detecting C compiler ABI info
+[1.806s] -- Detecting C compiler ABI info - done
+[1.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.807s] -- Detecting C compile features
+[1.807s] -- Detecting C compile features - done
+[1.808s] -- Detecting CXX compiler ABI info
+[1.808s] -- Detecting CXX compiler ABI info - done
+[1.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.809s] -- Detecting CXX compile features
+[1.809s] -- Detecting CXX compile features - done
+[1.810s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.923s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.450s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.524s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.283s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.335s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.081s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.372s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.967s] -- Looking for pthread.h
+[7.341s] -- Looking for pthread.h - found
+[7.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.713s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.718s] -- Found Threads: TRUE  
+[8.442s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.846s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.539s] [31mCMake Error at CMakeLists.txt:38 (find_package):
+[9.539s]   By not providing "Findapriltag_msgs.cmake" in CMAKE_MODULE_PATH this
+[9.539s]   project has asked CMake to find a package configuration file provided by
+[9.540s]   "apriltag_msgs", but CMake did not find one.
+[9.540s] 
+[9.541s]   Could not find a package configuration file provided by "apriltag_msgs"
+[9.541s]   with any of the following names:
+[9.541s] 
+[9.542s]     apriltag_msgsConfig.cmake
+[9.542s]     apriltag_msgs-config.cmake
+[9.542s] 
+[9.543s]   Add the installation prefix of "apriltag_msgs" to CMAKE_PREFIX_PATH or set
+[9.544s]   "apriltag_msgs_DIR" to a directory containing one of the above files.  If
+[9.544s]   "apriltag_msgs" provides a separate development package or SDK, be sure it
+[9.544s]   has been installed.
+[9.545s] 
+[9.545s] [0m
+[9.546s] -- Configuring incomplete, errors occurred!
+[9.546s] See also "/home/hb/hb_ws/build/apriltag_ros/CMakeFiles/CMakeOutput.log".
+[9.580s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '1': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs /usr/bin/cmake /home/hb/hb_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/apriltag_ros

@@ -1,0 +1,526 @@
+[0.000000] (-) TimerEvent: {}
+[0.001866] (serial_communication) JobQueued: {'identifier': 'serial_communication', 'dependencies': OrderedDict()}
+[0.002368] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002547] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.002812] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002963] (serial_communication) JobStarted: {'identifier': 'serial_communication'}
+[0.048087] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.076449] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.098420] (-) TimerEvent: {}
+[0.107402] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.198534] (-) TimerEvent: {}
+[0.299430] (-) TimerEvent: {}
+[0.400180] (-) TimerEvent: {}
+[0.501004] (-) TimerEvent: {}
+[0.601694] (-) TimerEvent: {}
+[0.702367] (-) TimerEvent: {}
+[0.803270] (-) TimerEvent: {}
+[0.903929] (-) TimerEvent: {}
+[1.004600] (-) TimerEvent: {}
+[1.105285] (-) TimerEvent: {}
+[1.205983] (-) TimerEvent: {}
+[1.306888] (-) TimerEvent: {}
+[1.408304] (-) TimerEvent: {}
+[1.435156] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.438950] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[1.443346] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/teleop_twist_joy', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/hb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:23459'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '627d01b5783247b8ae5feb8db80c4648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OU54L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[1.461181] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[1.464931] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[1.466285] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/hb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:23459'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '627d01b5783247b8ae5feb8db80c4648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OU54L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[1.493196] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[1.498155] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[1.499866] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/hb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:23459'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '627d01b5783247b8ae5feb8db80c4648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OU54L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[1.509411] (-) TimerEvent: {}
+[1.610783] (-) TimerEvent: {}
+[1.711976] (-) TimerEvent: {}
+[1.812930] (-) TimerEvent: {}
+[1.838260] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[1.873332] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[1.876780] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[1.899657] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.913293] (-) TimerEvent: {}
+[1.924455] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.013534] (-) TimerEvent: {}
+[2.114771] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[2.115681] (-) TimerEvent: {}
+[2.139438] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[2.229877] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[2.232003] (-) TimerEvent: {}
+[2.232827] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[2.316541] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[2.332105] (-) TimerEvent: {}
+[2.433958] (-) TimerEvent: {}
+[2.535512] (-) TimerEvent: {}
+[2.636458] (-) TimerEvent: {}
+[2.737410] (-) TimerEvent: {}
+[2.838495] (-) TimerEvent: {}
+[2.886423] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[2.938713] (-) TimerEvent: {}
+[2.981429] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hb/hb_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/hb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:23459'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '627d01b5783247b8ae5feb8db80c4648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OU54L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[3.000847] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[3.002776] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hb/hb_ws/build/teleop_twist_joy'], 'cwd': '/home/hb/hb_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/hb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:23459'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '627d01b5783247b8ae5feb8db80c4648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OU54L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[3.038995] (-) TimerEvent: {}
+[3.082148] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.085916] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[3.090118] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[3.093249] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[3.095214] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[3.097101] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[3.098348] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.100042] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[3.101008] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[3.102456] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[3.103189] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[3.103901] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[3.105225] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[3.106008] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[3.106583] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_cartographer.launch.py\n'}
+[3.108534] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[3.109202] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[3.110605] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[3.112151] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[3.114011] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[3.119845] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps4.config.yaml\n'}
+[3.123811] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[3.125270] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[3.125779] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[3.126249] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[3.126688] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[3.127177] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[3.128102] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[3.134818] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[3.136890] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[3.137791] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[3.142671] (-) TimerEvent: {}
+[3.145619] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[3.146336] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[3.146873] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[3.147664] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[3.148208] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[3.148699] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[3.149302] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[3.149757] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[3.150206] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[3.150733] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[3.159677] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[3.160212] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[3.160662] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[3.161120] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[3.161812] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[3.162286] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar_cartographer.lua\n'}
+[3.162821] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[3.163978] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[3.164589] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[3.165056] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[3.165616] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[3.166108] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[3.166866] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[3.224462] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[3.225081] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[3.225773] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[3.226285] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[3.226825] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[3.227429] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[3.227919] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[3.228439] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[3.228961] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[3.229497] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[3.230174] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[3.230781] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[3.231534] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[3.232087] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[3.232632] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[3.233119] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.233635] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.234111] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.234578] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[3.255880] (-) TimerEvent: {}
+[3.256576] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[3.257281] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[3.257884] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[3.258445] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[3.259276] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[3.260017] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[3.260635] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[3.359998] (-) TimerEvent: {}
+[3.402939] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[3.460599] (-) TimerEvent: {}
+[3.562218] (-) TimerEvent: {}
+[3.664048] (-) TimerEvent: {}
+[3.765507] (-) TimerEvent: {}
+[3.868776] (-) TimerEvent: {}
+[3.975264] (-) TimerEvent: {}
+[4.082320] (-) TimerEvent: {}
+[4.186957] (-) TimerEvent: {}
+[4.288739] (-) TimerEvent: {}
+[4.317979] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[4.394491] (-) TimerEvent: {}
+[4.495595] (-) TimerEvent: {}
+[4.499565] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[4.595928] (-) TimerEvent: {}
+[4.697089] (-) TimerEvent: {}
+[4.798265] (-) TimerEvent: {}
+[4.899559] (-) TimerEvent: {}
+[5.003042] (-) TimerEvent: {}
+[5.107799] (-) TimerEvent: {}
+[5.212754] (-) TimerEvent: {}
+[5.314032] (-) TimerEvent: {}
+[5.415444] (-) TimerEvent: {}
+[5.522588] (-) TimerEvent: {}
+[5.625948] (-) TimerEvent: {}
+[5.742388] (-) TimerEvent: {}
+[5.843547] (-) TimerEvent: {}
+[5.944473] (-) TimerEvent: {}
+[6.045544] (-) TimerEvent: {}
+[6.146859] (-) TimerEvent: {}
+[6.247960] (-) TimerEvent: {}
+[6.349048] (-) TimerEvent: {}
+[6.453114] (-) TimerEvent: {}
+[6.554414] (-) TimerEvent: {}
+[6.657848] (-) TimerEvent: {}
+[6.761878] (-) TimerEvent: {}
+[6.879418] (-) TimerEvent: {}
+[6.981863] (-) TimerEvent: {}
+[7.023031] (serial_communication) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_communication', 'build', '--build-base', '/home/hb/hb_ws/build/serial_communication/build', 'install', '--record', '/home/hb/hb_ws/build/serial_communication/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hb/hb_ws/src/serial_communication', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'hb', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hb', 'OLDPWD': '/home/hb/hb_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1022', 'SYSTEMD_EXEC_PID': '1567', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2957', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hb/hb_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hb', 'JOURNAL_STREAM': '8:23459', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hb', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '627d01b5783247b8ae5feb8db80c4648', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OU54L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:58ee06c0-390e-4128-a572-f6a8743ad4c4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hb/hb_ws/build/serial_communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs'}, 'shell': False}
+[7.082152] (-) TimerEvent: {}
+[7.183721] (-) TimerEvent: {}
+[7.296808] (-) TimerEvent: {}
+[7.398651] (-) TimerEvent: {}
+[7.501132] (-) TimerEvent: {}
+[7.604482] (-) TimerEvent: {}
+[7.710518] (-) TimerEvent: {}
+[7.822481] (-) TimerEvent: {}
+[7.926093] (-) TimerEvent: {}
+[8.034010] (-) TimerEvent: {}
+[8.141820] (-) TimerEvent: {}
+[8.245144] (-) TimerEvent: {}
+[8.346858] (-) TimerEvent: {}
+[8.451539] (-) TimerEvent: {}
+[8.553227] (-) TimerEvent: {}
+[8.658534] (-) TimerEvent: {}
+[8.761114] (-) TimerEvent: {}
+[8.865052] (-) TimerEvent: {}
+[8.967318] (-) TimerEvent: {}
+[9.069370] (-) TimerEvent: {}
+[9.174123] (-) TimerEvent: {}
+[9.277758] (-) TimerEvent: {}
+[9.384742] (-) TimerEvent: {}
+[9.488160] (-) TimerEvent: {}
+[9.592177] (-) TimerEvent: {}
+[9.694981] (-) TimerEvent: {}
+[9.797759] (-) TimerEvent: {}
+[9.915399] (-) TimerEvent: {}
+[10.018282] (-) TimerEvent: {}
+[10.121091] (-) TimerEvent: {}
+[10.225851] (-) TimerEvent: {}
+[10.328896] (-) TimerEvent: {}
+[10.432169] (-) TimerEvent: {}
+[10.535160] (-) TimerEvent: {}
+[10.645131] (-) TimerEvent: {}
+[10.748369] (-) TimerEvent: {}
+[10.855690] (-) TimerEvent: {}
+[10.964895] (-) TimerEvent: {}
+[11.067181] (-) TimerEvent: {}
+[11.169711] (-) TimerEvent: {}
+[11.271459] (-) TimerEvent: {}
+[11.373761] (-) TimerEvent: {}
+[11.476286] (-) TimerEvent: {}
+[11.590368] (-) TimerEvent: {}
+[11.692001] (-) TimerEvent: {}
+[11.796205] (-) TimerEvent: {}
+[11.904443] (-) TimerEvent: {}
+[12.010653] (-) TimerEvent: {}
+[12.124216] (-) TimerEvent: {}
+[12.229801] (-) TimerEvent: {}
+[12.338393] (-) TimerEvent: {}
+[12.442752] (-) TimerEvent: {}
+[12.544440] (-) TimerEvent: {}
+[12.646262] (-) TimerEvent: {}
+[12.747859] (-) TimerEvent: {}
+[12.851302] (-) TimerEvent: {}
+[12.955153] (-) TimerEvent: {}
+[13.057958] (-) TimerEvent: {}
+[13.162564] (-) TimerEvent: {}
+[13.264579] (-) TimerEvent: {}
+[13.368944] (-) TimerEvent: {}
+[13.482115] (-) TimerEvent: {}
+[13.586348] (-) TimerEvent: {}
+[13.694129] (-) TimerEvent: {}
+[13.775995] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[13.794323] (-) TimerEvent: {}
+[13.896529] (-) TimerEvent: {}
+[13.998838] (-) TimerEvent: {}
+[14.101246] (-) TimerEvent: {}
+[14.202882] (-) TimerEvent: {}
+[14.304336] (-) TimerEvent: {}
+[14.407170] (-) TimerEvent: {}
+[14.506074] (serial_communication) StdoutLine: {'line': b'running egg_info\n'}
+[14.507763] (-) TimerEvent: {}
+[14.532430] (serial_communication) StdoutLine: {'line': b'writing ../../build/serial_communication/serial_communication.egg-info/PKG-INFO\n'}
+[14.537609] (serial_communication) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_communication/serial_communication.egg-info/dependency_links.txt\n'}
+[14.542449] (serial_communication) StdoutLine: {'line': b'writing entry points to ../../build/serial_communication/serial_communication.egg-info/entry_points.txt\n'}
+[14.543778] (serial_communication) StdoutLine: {'line': b'writing requirements to ../../build/serial_communication/serial_communication.egg-info/requires.txt\n'}
+[14.545027] (serial_communication) StdoutLine: {'line': b'writing top-level names to ../../build/serial_communication/serial_communication.egg-info/top_level.txt\n'}
+[14.585061] (serial_communication) StdoutLine: {'line': b"reading manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'\n"}
+[14.595937] (serial_communication) StdoutLine: {'line': b"writing manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'\n"}
+[14.596989] (serial_communication) StdoutLine: {'line': b'running build\n'}
+[14.597891] (serial_communication) StdoutLine: {'line': b'running build_py\n'}
+[14.599835] (serial_communication) StdoutLine: {'line': b'running install\n'}
+[14.607731] (serial_communication) StdoutLine: {'line': b'running install_lib\n'}
+[14.608790] (-) TimerEvent: {}
+[14.617863] (serial_communication) StdoutLine: {'line': b'running install_data\n'}
+[14.625250] (serial_communication) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.652112] (serial_communication) StdoutLine: {'line': b"removing '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.663595] (serial_communication) StdoutLine: {'line': b'Copying ../../build/serial_communication/serial_communication.egg-info to /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info\n'}
+[14.689925] (serial_communication) StdoutLine: {'line': b'running install_scripts\n'}
+[14.709239] (-) TimerEvent: {}
+[14.813710] (-) TimerEvent: {}
+[14.918463] (-) TimerEvent: {}
+[15.021177] (-) TimerEvent: {}
+[15.126141] (-) TimerEvent: {}
+[15.204572] (serial_communication) StdoutLine: {'line': b'Installing teleop_serial script to /home/hb/hb_ws/install/serial_communication/lib/serial_communication\n'}
+[15.222196] (serial_communication) StdoutLine: {'line': b"writing list of installed files to '/home/hb/hb_ws/build/serial_communication/install.log'\n"}
+[15.227828] (-) TimerEvent: {}
+[15.330585] (-) TimerEvent: {}
+[15.439373] (-) TimerEvent: {}
+[15.540857] (-) TimerEvent: {}
+[15.575427] (serial_communication) CommandEnded: {'returncode': 0}
+[15.667868] (-) TimerEvent: {}
+[15.772567] (-) TimerEvent: {}
+[15.811820] (serial_communication) JobEnded: {'identifier': 'serial_communication', 'rc': 0}
+[15.874340] (-) TimerEvent: {}
+[15.979384] (-) TimerEvent: {}
+[16.083411] (-) TimerEvent: {}
+[16.185111] (-) TimerEvent: {}
+[16.260462] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[16.285375] (-) TimerEvent: {}
+[16.387890] (-) TimerEvent: {}
+[16.489287] (-) TimerEvent: {}
+[16.591087] (-) TimerEvent: {}
+[16.692184] (-) TimerEvent: {}
+[16.793190] (-) TimerEvent: {}
+[16.894259] (-) TimerEvent: {}
+[16.995377] (-) TimerEvent: {}
+[17.102238] (-) TimerEvent: {}
+[17.207004] (-) TimerEvent: {}
+[17.309088] (-) TimerEvent: {}
+[17.414705] (-) TimerEvent: {}
+[17.516547] (-) TimerEvent: {}
+[17.618205] (-) TimerEvent: {}
+[17.719833] (-) TimerEvent: {}
+[17.823569] (-) TimerEvent: {}
+[17.926633] (-) TimerEvent: {}
+[18.028627] (-) TimerEvent: {}
+[18.131448] (-) TimerEvent: {}
+[18.234661] (-) TimerEvent: {}
+[18.337500] (-) TimerEvent: {}
+[18.439840] (-) TimerEvent: {}
+[18.555687] (-) TimerEvent: {}
+[18.659718] (-) TimerEvent: {}
+[18.761747] (-) TimerEvent: {}
+[18.864024] (-) TimerEvent: {}
+[18.966142] (-) TimerEvent: {}
+[19.081248] (-) TimerEvent: {}
+[19.184304] (-) TimerEvent: {}
+[19.286213] (-) TimerEvent: {}
+[19.388298] (-) TimerEvent: {}
+[19.490129] (-) TimerEvent: {}
+[19.596064] (-) TimerEvent: {}
+[19.698258] (-) TimerEvent: {}
+[19.799317] (-) TimerEvent: {}
+[19.901528] (-) TimerEvent: {}
+[20.011269] (-) TimerEvent: {}
+[20.112408] (-) TimerEvent: {}
+[20.215290] (-) TimerEvent: {}
+[20.316721] (-) TimerEvent: {}
+[20.418484] (-) TimerEvent: {}
+[20.523527] (-) TimerEvent: {}
+[20.625416] (-) TimerEvent: {}
+[20.729043] (-) TimerEvent: {}
+[20.831229] (-) TimerEvent: {}
+[20.933123] (-) TimerEvent: {}
+[21.037967] (-) TimerEvent: {}
+[21.140362] (-) TimerEvent: {}
+[21.242780] (-) TimerEvent: {}
+[21.344485] (-) TimerEvent: {}
+[21.450045] (-) TimerEvent: {}
+[21.551010] (-) TimerEvent: {}
+[21.652071] (-) TimerEvent: {}
+[21.753900] (-) TimerEvent: {}
+[21.855458] (-) TimerEvent: {}
+[21.957359] (-) TimerEvent: {}
+[22.060015] (-) TimerEvent: {}
+[22.161955] (-) TimerEvent: {}
+[22.266745] (-) TimerEvent: {}
+[22.369199] (-) TimerEvent: {}
+[22.471079] (-) TimerEvent: {}
+[22.572971] (-) TimerEvent: {}
+[22.675418] (-) TimerEvent: {}
+[22.781721] (-) TimerEvent: {}
+[22.891293] (-) TimerEvent: {}
+[22.993141] (-) TimerEvent: {}
+[23.097320] (-) TimerEvent: {}
+[23.199577] (-) TimerEvent: {}
+[23.301689] (-) TimerEvent: {}
+[23.408579] (-) TimerEvent: {}
+[23.511426] (-) TimerEvent: {}
+[23.613838] (-) TimerEvent: {}
+[23.715888] (-) TimerEvent: {}
+[23.819877] (-) TimerEvent: {}
+[23.923370] (-) TimerEvent: {}
+[24.025196] (-) TimerEvent: {}
+[24.127134] (-) TimerEvent: {}
+[24.230458] (-) TimerEvent: {}
+[24.333286] (-) TimerEvent: {}
+[24.435354] (-) TimerEvent: {}
+[24.537165] (-) TimerEvent: {}
+[24.638889] (-) TimerEvent: {}
+[24.740663] (-) TimerEvent: {}
+[24.842522] (-) TimerEvent: {}
+[24.944274] (-) TimerEvent: {}
+[25.045871] (-) TimerEvent: {}
+[25.147608] (-) TimerEvent: {}
+[25.249234] (-) TimerEvent: {}
+[25.351289] (-) TimerEvent: {}
+[25.456602] (-) TimerEvent: {}
+[25.563601] (-) TimerEvent: {}
+[25.664633] (-) TimerEvent: {}
+[25.765878] (-) TimerEvent: {}
+[25.866978] (-) TimerEvent: {}
+[25.968166] (-) TimerEvent: {}
+[26.074540] (-) TimerEvent: {}
+[26.175740] (-) TimerEvent: {}
+[26.277311] (-) TimerEvent: {}
+[26.378795] (-) TimerEvent: {}
+[26.480395] (-) TimerEvent: {}
+[26.581877] (-) TimerEvent: {}
+[26.684765] (-) TimerEvent: {}
+[26.786373] (-) TimerEvent: {}
+[26.888137] (-) TimerEvent: {}
+[26.989686] (-) TimerEvent: {}
+[27.090581] (-) TimerEvent: {}
+[27.203370] (-) TimerEvent: {}
+[27.304377] (-) TimerEvent: {}
+[27.309800] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[27.404658] (-) TimerEvent: {}
+[27.506323] (-) TimerEvent: {}
+[27.608337] (-) TimerEvent: {}
+[27.711244] (-) TimerEvent: {}
+[27.813691] (-) TimerEvent: {}
+[27.915786] (-) TimerEvent: {}
+[28.017593] (-) TimerEvent: {}
+[28.118539] (-) TimerEvent: {}
+[28.220029] (-) TimerEvent: {}
+[28.326981] (-) TimerEvent: {}
+[28.428600] (-) TimerEvent: {}
+[28.530996] (-) TimerEvent: {}
+[28.642088] (-) TimerEvent: {}
+[28.746099] (-) TimerEvent: {}
+[28.853625] (-) TimerEvent: {}
+[28.957012] (-) TimerEvent: {}
+[29.060096] (-) TimerEvent: {}
+[29.111965] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[29.160343] (-) TimerEvent: {}
+[29.261815] (-) TimerEvent: {}
+[29.277868] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o\x1b[0m\n'}
+[29.366136] (-) TimerEvent: {}
+[29.467775] (-) TimerEvent: {}
+[29.569496] (-) TimerEvent: {}
+[29.671178] (-) TimerEvent: {}
+[29.772518] (-) TimerEvent: {}
+[29.873883] (-) TimerEvent: {}
+[29.975627] (-) TimerEvent: {}
+[30.077266] (-) TimerEvent: {}
+[30.179381] (-) TimerEvent: {}
+[30.280276] (-) TimerEvent: {}
+[30.381260] (-) TimerEvent: {}
+[30.443114] (usb_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hb/hb_ws/src/usb_cam/src/ros2/usb_cam_node.cpp:34\x1b[m\x1b[K:\n'}
+[30.444256] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory\n'}
+[30.445246] (usb_cam) StderrLine: {'line': b'   38 | #include \x1b[01;31m\x1b[K"camera_info_manager/camera_info_manager.hpp"\x1b[m\x1b[K\n'}
+[30.446313] (usb_cam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.447913] (usb_cam) StderrLine: {'line': b'compilation terminated.\n'}
+[30.468816] (usb_cam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:76: CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o] Error 1\n'}
+[30.469992] (usb_cam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/usb_cam_node.dir/all] Error 2\n'}
+[30.471109] (usb_cam) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[30.482286] (-) TimerEvent: {}
+[30.583458] (-) TimerEvent: {}
+[30.684676] (-) TimerEvent: {}
+[30.787382] (-) TimerEvent: {}
+[30.891290] (-) TimerEvent: {}
+[30.992436] (-) TimerEvent: {}
+[31.094336] (-) TimerEvent: {}
+[31.198289] (-) TimerEvent: {}
+[31.303423] (-) TimerEvent: {}
+[31.404847] (-) TimerEvent: {}
+[31.508270] (-) TimerEvent: {}
+[31.610624] (-) TimerEvent: {}
+[31.713022] (-) TimerEvent: {}
+[31.816611] (-) TimerEvent: {}
+[31.919512] (-) TimerEvent: {}
+[32.022639] (-) TimerEvent: {}
+[32.124603] (-) TimerEvent: {}
+[32.226382] (-) TimerEvent: {}
+[32.328412] (-) TimerEvent: {}
+[32.430550] (-) TimerEvent: {}
+[32.533718] (-) TimerEvent: {}
+[32.634985] (-) TimerEvent: {}
+[32.738981] (-) TimerEvent: {}
+[32.841473] (-) TimerEvent: {}
+[32.943904] (-) TimerEvent: {}
+[33.045878] (-) TimerEvent: {}
+[33.149047] (-) TimerEvent: {}
+[33.251282] (-) TimerEvent: {}
+[33.353133] (-) TimerEvent: {}
+[33.455925] (-) TimerEvent: {}
+[33.557867] (-) TimerEvent: {}
+[33.659923] (-) TimerEvent: {}
+[33.763300] (-) TimerEvent: {}
+[33.865269] (-) TimerEvent: {}
+[33.968272] (-) TimerEvent: {}
+[34.069841] (-) TimerEvent: {}
+[34.174808] (-) TimerEvent: {}
+[34.278848] (-) TimerEvent: {}
+[34.379748] (-) TimerEvent: {}
+[34.480760] (-) TimerEvent: {}
+[34.583297] (-) TimerEvent: {}
+[34.686791] (-) TimerEvent: {}
+[34.789581] (-) TimerEvent: {}
+[34.891729] (-) TimerEvent: {}
+[34.993077] (-) TimerEvent: {}
+[35.094136] (-) TimerEvent: {}
+[35.149393] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[35.194392] (-) TimerEvent: {}
+[35.295468] (-) TimerEvent: {}
+[35.396583] (-) TimerEvent: {}
+[35.497439] (-) TimerEvent: {}
+[35.619719] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[35.620514] (-) TimerEvent: {}
+[35.721870] (-) TimerEvent: {}
+[35.822750] (-) TimerEvent: {}
+[35.924414] (-) TimerEvent: {}
+[36.025578] (-) TimerEvent: {}
+[36.126664] (-) TimerEvent: {}
+[36.229589] (-) TimerEvent: {}
+[36.271636] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[36.330174] (-) TimerEvent: {}
+[36.434616] (-) TimerEvent: {}
+[36.536362] (-) TimerEvent: {}
+[36.638428] (-) TimerEvent: {}
+[36.739975] (-) TimerEvent: {}
+[36.843041] (-) TimerEvent: {}
+[36.945225] (-) TimerEvent: {}
+[37.046904] (-) TimerEvent: {}
+[37.148728] (-) TimerEvent: {}
+[37.249872] (-) TimerEvent: {}
+[37.350691] (-) TimerEvent: {}
+[37.451927] (-) TimerEvent: {}
+[37.553444] (-) TimerEvent: {}
+[37.581070] (usb_cam) StdoutLine: {'line': b'[ 64%] Built target usb_cam_node_exe\n'}
+[37.590593] (usb_cam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[37.602543] (usb_cam) CommandEnded: {'returncode': 2}
+[37.654027] (-) TimerEvent: {}
+[37.756166] (-) TimerEvent: {}
+[37.857471] (-) TimerEvent: {}
+[37.959336] (-) TimerEvent: {}
+[37.973248] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 2}
+[37.985464] (-) EventReactorShutdown: {}

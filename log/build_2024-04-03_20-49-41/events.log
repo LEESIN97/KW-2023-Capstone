@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.001845] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002466] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.045420] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.049542] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.052664] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb/YDLidar-SDK/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1005'), ('SYSTEMD_EXEC_PID', '1536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4412'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24058'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1176,unix/hb-desktop:/tmp/.ICE-unix/1176'), ('INVOCATION_ID', 'e0059c9d03fa480da8dd02f86fd4e5b2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0GIML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cf5467fe-bd08-4660-b02d-18ca95fef058'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.099012] (-) TimerEvent: {}
+[0.200447] (-) TimerEvent: {}
+[0.261027] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.300687] (-) TimerEvent: {}
+[0.331587] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.367682] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.400896] (-) TimerEvent: {}
+[0.502215] (-) TimerEvent: {}
+[0.602966] (-) TimerEvent: {}
+[0.703704] (-) TimerEvent: {}
+[0.804434] (-) TimerEvent: {}
+[0.905191] (-) TimerEvent: {}
+[1.006105] (-) TimerEvent: {}
+[1.106967] (-) TimerEvent: {}
+[1.207725] (-) TimerEvent: {}
+[1.308701] (-) TimerEvent: {}
+[1.409757] (-) TimerEvent: {}
+[1.510470] (-) TimerEvent: {}
+[1.611179] (-) TimerEvent: {}
+[1.711919] (-) TimerEvent: {}
+[1.812625] (-) TimerEvent: {}
+[1.913580] (-) TimerEvent: {}
+[2.014317] (-) TimerEvent: {}
+[2.115136] (-) TimerEvent: {}
+[2.215978] (-) TimerEvent: {}
+[2.316909] (-) TimerEvent: {}
+[2.417747] (-) TimerEvent: {}
+[2.518578] (-) TimerEvent: {}
+[2.619425] (-) TimerEvent: {}
+[2.720303] (-) TimerEvent: {}
+[2.821691] (-) TimerEvent: {}
+[2.922532] (-) TimerEvent: {}
+[3.023339] (-) TimerEvent: {}
+[3.124168] (-) TimerEvent: {}
+[3.225122] (-) TimerEvent: {}
+[3.325953] (-) TimerEvent: {}
+[3.426970] (-) TimerEvent: {}
+[3.527788] (-) TimerEvent: {}
+[3.628839] (-) TimerEvent: {}
+[3.729705] (-) TimerEvent: {}
+[3.830487] (-) TimerEvent: {}
+[3.931320] (-) TimerEvent: {}
+[4.032415] (-) TimerEvent: {}
+[4.133383] (-) TimerEvent: {}
+[4.234242] (-) TimerEvent: {}
+[4.335090] (-) TimerEvent: {}
+[4.436110] (-) TimerEvent: {}
+[4.536986] (-) TimerEvent: {}
+[4.637870] (-) TimerEvent: {}
+[4.738772] (-) TimerEvent: {}
+[4.839786] (-) TimerEvent: {}
+[4.940667] (-) TimerEvent: {}
+[5.041526] (-) TimerEvent: {}
+[5.142342] (-) TimerEvent: {}
+[5.243262] (-) TimerEvent: {}
+[5.344167] (-) TimerEvent: {}
+[5.445050] (-) TimerEvent: {}
+[5.545932] (-) TimerEvent: {}
+[5.646883] (-) TimerEvent: {}
+[5.748037] (-) TimerEvent: {}
+[5.848916] (-) TimerEvent: {}
+[5.949762] (-) TimerEvent: {}
+[6.050831] (-) TimerEvent: {}
+[6.151708] (-) TimerEvent: {}
+[6.252638] (-) TimerEvent: {}
+[6.353455] (-) TimerEvent: {}
+[6.454311] (-) TimerEvent: {}
+[6.555393] (-) TimerEvent: {}
+[6.656244] (-) TimerEvent: {}
+[6.757119] (-) TimerEvent: {}
+[6.858112] (-) TimerEvent: {}
+[6.958953] (-) TimerEvent: {}
+[7.059871] (-) TimerEvent: {}
+[7.160721] (-) TimerEvent: {}
+[7.261502] (-) TimerEvent: {}
+[7.362537] (-) TimerEvent: {}
+[7.463396] (-) TimerEvent: {}
+[7.564266] (-) TimerEvent: {}
+[7.665172] (-) TimerEvent: {}
+[7.766111] (-) TimerEvent: {}
+[7.866968] (-) TimerEvent: {}
+[7.967827] (-) TimerEvent: {}
+[8.068711] (-) TimerEvent: {}
+[8.169726] (-) TimerEvent: {}
+[8.270570] (-) TimerEvent: {}
+[8.371414] (-) TimerEvent: {}
+[8.472270] (-) TimerEvent: {}
+[8.573485] (-) TimerEvent: {}
+[8.674354] (-) TimerEvent: {}
+[8.775269] (-) TimerEvent: {}
+[8.876264] (-) TimerEvent: {}
+[8.977410] (-) TimerEvent: {}
+[9.078249] (-) TimerEvent: {}
+[9.179113] (-) TimerEvent: {}
+[9.279989] (-) TimerEvent: {}
+[9.380905] (-) TimerEvent: {}
+[9.481800] (-) TimerEvent: {}
+[9.582648] (-) TimerEvent: {}
+[9.683491] (-) TimerEvent: {}
+[9.784586] (-) TimerEvent: {}
+[9.885402] (-) TimerEvent: {}
+[9.986266] (-) TimerEvent: {}
+[10.087125] (-) TimerEvent: {}
+[10.188176] (-) TimerEvent: {}
+[10.289138] (-) TimerEvent: {}
+[10.390081] (-) TimerEvent: {}
+[10.491021] (-) TimerEvent: {}
+[10.592134] (-) TimerEvent: {}
+[10.693073] (-) TimerEvent: {}
+[10.793930] (-) TimerEvent: {}
+[10.894763] (-) TimerEvent: {}
+[10.995708] (-) TimerEvent: {}
+[11.096634] (-) TimerEvent: {}
+[11.197508] (-) TimerEvent: {}
+[11.298371] (-) TimerEvent: {}
+[11.399419] (-) TimerEvent: {}
+[11.464679] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.465744] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:76:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.466259] (ydlidar_ros2_driver) StderrLine: {'line': b'   76 |   optval = 18\n'}
+[11.466705] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.467155] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[11.467581] (ydlidar_ros2_driver) StderrLine: {'line': b'   77 |   \x1b[32m\x1b[Knode\x1b[m\x1b[K->declare_parameter("sample_rate", optval);\n'}
+[11.467999] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[32m\x1b[K~~~~\x1b[m\x1b[K        \n'}
+[11.499753] (-) TimerEvent: {}
+[11.522443] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[11.523236] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.523714] (ydlidar_ros2_driver) StderrLine: {'line': b'  169 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[11.524302] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.524911] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.525368] (ydlidar_ros2_driver) StderrLine: {'line': b'  170 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[11.525791] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.531992] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.532946] (ydlidar_ros2_driver) StderrLine: {'line': b'  171 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[11.533927] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[11.593652] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[11.594466] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.595022] (ydlidar_ros2_driver) StderrLine: {'line': b'  179 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[11.595461] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.595908] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.596363] (ydlidar_ros2_driver) StderrLine: {'line': b'  180 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[11.596886] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.597478] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.597997] (ydlidar_ros2_driver) StderrLine: {'line': b'  181 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[11.598452] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[11.599914] (-) TimerEvent: {}
+[11.700747] (-) TimerEvent: {}
+[11.801642] (-) TimerEvent: {}
+[11.902482] (-) TimerEvent: {}
+[12.003321] (-) TimerEvent: {}
+[12.104331] (-) TimerEvent: {}
+[12.205237] (-) TimerEvent: {}
+[12.306081] (-) TimerEvent: {}
+[12.406935] (-) TimerEvent: {}
+[12.507798] (-) TimerEvent: {}
+[12.608658] (-) TimerEvent: {}
+[12.709507] (-) TimerEvent: {}
+[12.810387] (-) TimerEvent: {}
+[12.911368] (-) TimerEvent: {}
+[13.012208] (-) TimerEvent: {}
+[13.113086] (-) TimerEvent: {}
+[13.213925] (-) TimerEvent: {}
+[13.314970] (-) TimerEvent: {}
+[13.415816] (-) TimerEvent: {}
+[13.516650] (-) TimerEvent: {}
+[13.617572] (-) TimerEvent: {}
+[13.718637] (-) TimerEvent: {}
+[13.819495] (-) TimerEvent: {}
+[13.920333] (-) TimerEvent: {}
+[14.021179] (-) TimerEvent: {}
+[14.122007] (-) TimerEvent: {}
+[14.223031] (-) TimerEvent: {}
+[14.323872] (-) TimerEvent: {}
+[14.424724] (-) TimerEvent: {}
+[14.525553] (-) TimerEvent: {}
+[14.626507] (-) TimerEvent: {}
+[14.727391] (-) TimerEvent: {}
+[14.828262] (-) TimerEvent: {}
+[14.929137] (-) TimerEvent: {}
+[15.030175] (-) TimerEvent: {}
+[15.131099] (-) TimerEvent: {}
+[15.231943] (-) TimerEvent: {}
+[15.332829] (-) TimerEvent: {}
+[15.433944] (-) TimerEvent: {}
+[15.535158] (-) TimerEvent: {}
+[15.635977] (-) TimerEvent: {}
+[15.736867] (-) TimerEvent: {}
+[15.837898] (-) TimerEvent: {}
+[15.938842] (-) TimerEvent: {}
+[16.040045] (-) TimerEvent: {}
+[16.110046] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Error 1\n'}
+[16.110957] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Error 2\n'}
+[16.111893] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.118287] (ydlidar_ros2_driver) CommandEnded: {'returncode': 2}
+[16.140367] (-) TimerEvent: {}
+[16.241222] (-) TimerEvent: {}
+[16.341971] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 2}
+[16.344097] (-) TimerEvent: {}
+[16.353678] (-) EventReactorShutdown: {}

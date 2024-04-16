@@ -1,0 +1,112 @@
+[1.760s] Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy
+[2.185s] -- The C compiler identification is GNU 11.4.0
+[2.549s] -- The CXX compiler identification is GNU 11.4.0
+[2.598s] -- Detecting C compiler ABI info
+[3.082s] -- Detecting C compiler ABI info - done
+[3.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.125s] -- Detecting C compile features
+[3.128s] -- Detecting C compile features - done
+[3.149s] -- Detecting CXX compiler ABI info
+[3.718s] -- Detecting CXX compiler ABI info - done
+[3.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.759s] -- Detecting CXX compile features
+[3.762s] -- Detecting CXX compile features - done
+[3.798s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.006s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.868s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.376s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.449s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.544s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.566s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[8.068s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.105s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.958s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.305s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.010s] -- Looking for pthread.h
+[10.501s] -- Looking for pthread.h - found
+[10.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.970s] -- Found Threads: TRUE  
+[11.656s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[12.105s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.476s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[12.933s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[12.936s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[13.404s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[13.407s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[13.888s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[13.925s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.914s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[15.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[15.199s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.217s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.222s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[15.425s] -- Found PythonExtra: .so  
+[15.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.838s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hb/hb_ws/src/teleop_twist_joy/include>
+[15.839s] -- Configured cppcheck exclude dirs and/or files: 
+[15.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.857s] -- Added test 'lint_cmake' to check CMake code style
+[15.863s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.868s] -- Added test 'xmllint' to check XML markup files
+[15.900s] -- Configuring done
+[16.114s] -- Generating done
+[16.158s] -- Build files have been written to: /home/hb/hb_ws/build/teleop_twist_joy
+[16.228s] Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy
+[16.231s] Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/teleop_twist_joy -- -j4 -l4
+[16.831s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy[0m
+[17.031s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[68.053s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[70.358s] [ 50%] Built target teleop_twist_joy
+[70.415s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node[0m
+[70.511s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[83.096s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[84.453s] [100%] Built target teleop_twist_joy_node
+[84.511s] Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/teleop_twist_joy -- -j4 -l4
+[84.710s] Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/teleop_twist_joy
+[84.743s] -- Install configuration: ""
+[84.744s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[84.799s] -- Set runtime path of "/home/hb/hb_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[84.800s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[84.803s] -- Set runtime path of "/home/hb/hb_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+[84.804s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy
+[84.804s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy
+[84.804s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp
+[84.805s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h
+[84.806s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[84.806s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[84.807s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[84.808s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[84.808s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps4.config.yaml
+[84.809s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[84.810s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[84.811s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[84.812s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[84.814s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[84.815s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[84.816s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[84.816s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[84.818s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[84.819s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[84.820s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[84.822s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[84.823s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[84.823s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[84.824s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[84.824s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[84.825s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[84.826s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[84.827s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[84.827s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+[84.828s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake
+[84.828s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.829s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[84.829s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake
+[84.830s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[84.830s] -- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[84.830s] -- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[84.838s] Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/teleop_twist_joy

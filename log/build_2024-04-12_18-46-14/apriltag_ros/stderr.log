@@ -1,0 +1,27 @@
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   71 |     [01;31m[Ktd[m[K->nthreads = 1;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   72 |     [01;31m[Ktd[m[K->quad_decimate = 2.0;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   73 |     [01;31m[Ktd[m[K->quad_sigma = 0.0;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   74 |     [01;31m[Ktd[m[K->refine_edges = True;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   75 |     [01;31m[Ktd[m[K->decode_sharpening = 0.25;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   76 |     [01;31m[Ktd[m[K->debug = false;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/AprilTagNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

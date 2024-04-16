@@ -1,0 +1,33 @@
+[0.183s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[1.737s] [ 16%] Built target tags
+[1.738s] [ 33%] Built target pose_estimation
+[1.739s] [ 66%] Built target apriltag_node
+[1.739s] [100%] Built target AprilTagNode
+[1.777s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[2.305s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/apriltag_ros
+[2.369s] -- Install configuration: ""
+[2.371s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[2.373s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[2.374s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[2.375s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[2.377s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/cfg
+[2.379s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[2.380s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/launch
+[2.381s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/launch/v4l2_36h11.launch.yml
+[2.382s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[2.383s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[2.384s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[2.385s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[2.387s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[2.388s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[2.389s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[2.390s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[2.407s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[2.408s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[2.408s] -- Installing: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[2.409s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[2.409s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[2.410s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[2.411s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[2.412s] -- Up-to-date: /home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[2.413s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/apriltag_ros

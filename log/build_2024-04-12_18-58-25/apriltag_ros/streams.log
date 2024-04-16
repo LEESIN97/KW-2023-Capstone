@@ -1,0 +1,14 @@
+[0.163s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[1.788s] [ 16%] Built target tags
+[1.789s] [ 33%] Built target pose_estimation
+[1.789s] [ 66%] Built target apriltag_node
+[1.790s] [35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[1.790s] [ 83%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[17.017s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:[m[K In constructor ‘[01m[KAprilTagNode::AprilTagNode(const rclcpp::NodeOptions&)[m[K’:
+[17.017s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:124:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope
+[17.018s]   124 |     td->refine_edges = [01;31m[KTrue[m[K;
+[17.018s]       |                        [01;31m[K^~~~[m[K
+[22.819s] gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Error 1
+[22.820s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/AprilTagNode.dir/all] Error 2
+[22.821s] gmake: *** [Makefile:146: all] Error 2
+[22.828s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '2': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4

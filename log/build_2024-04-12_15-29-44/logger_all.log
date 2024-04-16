@@ -1,0 +1,410 @@
+[0.820s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.820s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff997e5ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9996f0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9996f0a0>>)
+[2.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.910s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hb/hb_ws'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) ignored
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[3.024s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extensions ['ignore', 'ignore_ament_install']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extension 'ignore'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extension 'ignore_ament_install'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extensions ['colcon_pkg']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extension 'colcon_pkg'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extensions ['colcon_meta']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extensions ['ros']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_communication) by extension 'ros'
+[3.031s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_communication' with type 'ros.ament_python' and name 'serial_communication'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[3.037s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[3.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[3.070s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[3.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[3.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/hb/hb_ws/install
+[3.278s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 350 installed packages in /opt/ros/humble
+[3.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.529s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.530s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.530s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hb/hb_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hb/hb_ws/install/apriltag_ros', 'merge_install': False, 'path': '/home/hb/hb_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_args' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_target' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_clean_cache' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_clean_first' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'cmake_force_configure' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'ament_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'catkin_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'serial_communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.533s] DEBUG:colcon.colcon_core.verb:Building package 'serial_communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hb/hb_ws/build/serial_communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hb/hb_ws/install/serial_communication', 'merge_install': False, 'path': '/home/hb/hb_ws/src/serial_communication', 'symlink_install': False, 'test_result_base': None}
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[3.536s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.536s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hb/hb_ws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hb/hb_ws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/hb/hb_ws/src/teleop_twist_joy', 'symlink_install': False, 'test_result_base': None}
+[3.537s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[3.538s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.538s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hb/hb_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hb/hb_ws/install/usb_cam', 'merge_install': False, 'path': '/home/hb/hb_ws/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[3.540s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[3.540s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[3.540s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.540s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.541s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hb/hb_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/hb/hb_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[3.542s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.546s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hb/hb_ws/src/apriltag_ros' with build type 'ament_cmake'
+[3.547s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hb/hb_ws/src/apriltag_ros'
+[3.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hb/hb_ws/src/serial_communication' with build type 'ament_python'
+[3.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_communication', 'ament_prefix_path')
+[3.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/ament_prefix_path.ps1'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/ament_prefix_path.dsv'
+[3.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/ament_prefix_path.sh'
+[3.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hb/hb_ws/src/teleop_twist_joy' with build type 'ament_cmake'
+[3.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hb/hb_ws/src/teleop_twist_joy'
+[3.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hb/hb_ws/src/usb_cam' with build type 'ament_cmake'
+[3.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hb/hb_ws/src/usb_cam'
+[3.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[5.264s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hb/hb_ws/src/serial_communication'
+[5.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/teleop_twist_joy -- -j4 -l4
+[5.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4
+[5.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/apriltag_ros
+[5.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[5.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/apriltag_ros
+[5.989s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros' for CMake module files
+[5.993s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros' for CMake config files
+[5.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[6.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[6.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[6.027s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib'
+[6.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[6.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[6.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[6.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/bin'
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[6.041s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib/python3.10/site-packages'
+[6.043s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/bin'
+[6.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[6.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[6.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[6.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[6.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[6.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[6.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/teleop_twist_joy -- -j4 -l4
+[6.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4
+[6.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/teleop_twist_joy
+[6.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[6.466s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros' for CMake module files
+[6.479s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros' for CMake config files
+[6.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[6.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[6.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[6.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[6.510s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib'
+[6.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[6.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[6.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[6.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[6.525s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/bin'
+[6.526s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/lib/python3.10/site-packages'
+[6.528s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/apriltag_ros/bin'
+[6.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[6.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[6.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[6.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[6.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[6.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[6.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hb/hb_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[6.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hb/hb_ws/src/ydlidar_ros2_driver'
+[6.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[6.598s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy' for CMake module files
+[6.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/teleop_twist_joy
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy' for CMake config files
+[6.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[6.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[6.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[6.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[6.626s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib'
+[6.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[6.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[6.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[6.637s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/bin'
+[6.638s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[6.639s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[6.640s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/bin'
+[6.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[6.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[6.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[6.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[6.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[6.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[6.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[6.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/usb_cam
+[6.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam' for CMake module files
+[6.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/usb_cam
+[6.834s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam' for CMake config files
+[6.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[6.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[6.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[6.846s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib'
+[6.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[6.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[6.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/bin'
+[6.856s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib/python3.10/site-packages'
+[6.858s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/bin'
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.ps1'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.dsv'
+[6.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.sh'
+[6.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.bash'
+[6.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.zsh'
+[6.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[6.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy' for CMake module files
+[6.897s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy' for CMake config files
+[6.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[6.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[6.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[6.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib'
+[6.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[6.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[6.925s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/bin'
+[6.925s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/teleop_twist_joy/bin'
+[6.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[6.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[6.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[6.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[6.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[6.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[7.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[7.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[7.246s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam' for CMake module files
+[7.250s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam' for CMake config files
+[7.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[7.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[7.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[7.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib'
+[7.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[7.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[7.269s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/bin'
+[7.270s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[7.272s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/lib/python3.10/site-packages'
+[7.273s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/usb_cam/bin'
+[7.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.ps1'
+[7.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.dsv'
+[7.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.sh'
+[7.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.bash'
+[7.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/usb_cam/share/usb_cam/package.zsh'
+[7.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[7.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/ydlidar_ros2_driver
+[7.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[7.507s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver' for CMake module files
+[7.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/ydlidar_ros2_driver
+[7.513s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver' for CMake config files
+[7.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[7.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[7.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[7.526s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib'
+[7.527s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/bin'
+[7.527s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[7.529s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/bin'
+[7.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[7.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[7.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[7.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[7.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[7.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[7.747s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver' for CMake module files
+[7.750s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver' for CMake config files
+[7.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[7.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[7.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[7.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[7.762s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib'
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/bin'
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[7.765s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[7.766s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/ydlidar_ros2_driver/bin'
+[7.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[7.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[7.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[7.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[7.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[7.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[8.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hb/hb_ws/src/serial_communication': PYTHONPATH=/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communication build --build-base /home/hb/hb_ws/build/serial_communication/build install --record /home/hb/hb_ws/build/serial_communication/install.log --single-version-externally-managed install_data
+[9.588s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication' for CMake module files
+[9.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hb/hb_ws/src/serial_communication' returned '0': PYTHONPATH=/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communication build --build-base /home/hb/hb_ws/build/serial_communication/build install --record /home/hb/hb_ws/build/serial_communication/install.log --single-version-externally-managed install_data
+[9.592s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication' for CMake config files
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication/lib'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication/bin'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication/lib/pkgconfig/serial_communication.pc'
+[9.597s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages'
+[9.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_communication', 'pythonpath')
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/pythonpath.ps1'
+[9.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/pythonpath.dsv'
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hb/hb_ws/install/serial_communication/share/serial_communication/hook/pythonpath.sh'
+[9.606s] Level 1:colcon.colcon_core.environment:checking '/home/hb/hb_ws/install/serial_communication/bin'
+[9.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_communication)
+[9.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/serial_communication/share/serial_communication/package.ps1'
+[9.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hb/hb_ws/install/serial_communication/share/serial_communication/package.dsv'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/serial_communication/share/serial_communication/package.sh'
+[9.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/serial_communication/share/serial_communication/package.bash'
+[9.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/hb/hb_ws/install/serial_communication/share/serial_communication/package.zsh'
+[9.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hb/hb_ws/install/serial_communication/share/colcon-core/packages/serial_communication)
+[9.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.622s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.660s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.775s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hb/hb_ws/install/local_setup.ps1'
+[9.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hb/hb_ws/install/_local_setup_util_ps1.py'
+[9.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hb/hb_ws/install/setup.ps1'
+[9.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hb/hb_ws/install/local_setup.sh'
+[9.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hb/hb_ws/install/_local_setup_util_sh.py'
+[9.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hb/hb_ws/install/setup.sh'
+[9.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hb/hb_ws/install/local_setup.bash'
+[9.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hb/hb_ws/install/setup.bash'
+[9.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hb/hb_ws/install/local_setup.zsh'
+[9.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hb/hb_ws/install/setup.zsh'

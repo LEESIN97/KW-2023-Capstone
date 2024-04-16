@@ -1,0 +1,2 @@
+Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy
+Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '1': /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy

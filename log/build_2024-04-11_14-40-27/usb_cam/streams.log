@@ -1,0 +1,63 @@
+[1.815s] Invoking command in '/home/hb/hb_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4
+[2.373s] [ 14%] Built target usb_cam
+[2.379s] [ 28%] Built target gtest_main
+[2.464s] [ 42%] Built target gtest
+[2.480s] [ 57%] Built target usb_cam_node_exe
+[2.765s] [ 71%] Built target usb_cam_node
+[2.780s] [ 85%] Built target test_pixel_formats
+[2.790s] [100%] Built target test_usb_cam_utils
+[2.907s] Invoked command in '/home/hb/hb_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4
+[3.488s] Invoking command in '/home/hb/hb_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/usb_cam
+[3.561s] -- Install configuration: ""
+[3.565s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[3.569s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[3.581s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[3.594s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/lib/usb_cam/show_image.py
+[3.600s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/lib/libusb_cam.so
+[3.604s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/lib/libusb_cam_node.so
+[3.608s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include
+[3.610s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam
+[3.610s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[3.611s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/constants.hpp
+[3.612s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[3.612s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[3.613s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats
+[3.614s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[3.617s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[3.618s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[3.621s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[3.626s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[3.629s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[3.629s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[3.633s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[3.634s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[3.637s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/include/usb_cam/utils.hpp
+[3.642s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/lib/libusb_cam_node.so
+[3.644s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/launch
+[3.645s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[3.647s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[3.653s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[3.670s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/config
+[3.671s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[3.672s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[3.673s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[3.674s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[3.674s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[3.675s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[3.676s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[3.681s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[3.682s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[3.684s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[3.685s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[3.693s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[3.694s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[3.694s] -- Installing: /home/hb/hb_ws/install/usb_cam/share/usb_cam/package.dsv
+[3.695s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[3.696s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[3.704s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[3.705s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.705s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.706s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[3.706s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[3.707s] -- Up-to-date: /home/hb/hb_ws/install/usb_cam/share/usb_cam/package.xml
+[3.724s] Invoked command in '/home/hb/hb_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --install /home/hb/hb_ws/build/usb_cam

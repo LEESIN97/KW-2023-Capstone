@@ -1,0 +1,185 @@
+In file included from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:18[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:[m[K In member function ‘[01m[Kvoid rf2o::CLaserOdometry2D::performWarping()[m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type[m[K’ {aka ‘[01m[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>[m[K’} and ‘[01m[Kconst float[m[K’)
+  771 |           [01;31m[Krange_warped[image_level](round(uwarp)) += range_w[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  158 |     Derived& [01;36m[Koperator[m[K+=(const MatrixBase<OtherDerived>& other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  493 |     template<typename OtherDerived> Derived& [01;36m[Koperator[m[K+=(const ArrayBase<OtherDerived>& )
+      |                                              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ArrayBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  294 |     Derived& [01;36m[Koperator[m[K+=(const EigenBase<OtherDerived> &other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type[m[K’ {aka ‘[01m[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>[m[K’} and ‘[01m[Kfloat[m[K’)
+  772 |           [01;31m[Kwacu(std::round(uwarp)) += 1.f[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  158 |     Derived& [01;36m[Koperator[m[K+=(const MatrixBase<OtherDerived>& other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  493 |     template<typename OtherDerived> Derived& [01;36m[Koperator[m[K+=(const ArrayBase<OtherDerived>& )
+      |                                              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ArrayBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  294 |     Derived& [01;36m[Koperator[m[K+=(const EigenBase<OtherDerived> &other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:[m[K In member function ‘[01m[Kvoid rf2o::CLaserOdometry2D::performWarping()[m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type[m[K’ {aka ‘[01m[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>[m[K’} and ‘[01m[Kconst float[m[K’)
+  771 |           [01;31m[Krange_warped[image_level](round(uwarp)) += range_w[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  158 |     Derived& [01;36m[Koperator[m[K+=(const MatrixBase<OtherDerived>& other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  493 |     template<typename OtherDerived> Derived& [01;36m[Koperator[m[K+=(const ArrayBase<OtherDerived>& )
+      |                                              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ArrayBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>][m[K’
+  294 |     Derived& [01;36m[Koperator[m[K+=(const EigenBase<OtherDerived> &other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kconst float[m[K’
+  771 |           range_warped[image_level](round(uwarp)) += [01;36m[Krange_w[m[K;
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type[m[K’ {aka ‘[01m[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>[m[K’} and ‘[01m[Kfloat[m[K’)
+  772 |           [01;31m[Kwacu(std::round(uwarp)) += 1.f[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  158 |     Derived& [01;36m[Koperator[m[K+=(const MatrixBase<OtherDerived>& other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  493 |     template<typename OtherDerived> Derived& [01;36m[Koperator[m[K+=(const ArrayBase<OtherDerived>& )
+      |                                              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ArrayBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:272[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>][m[K’
+  294 |     Derived& [01;36m[Koperator[m[K+=(const EigenBase<OtherDerived> &other);
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+  772 |           wacu(std::round(uwarp)) += [01;36m[K1.f[m[K;
+      |                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:164[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double][m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX
+  157 |   [01;31m[KEIGEN_STATIC_ASSERT_VECTOR_ONLY[m[K(Derived)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime[m[K’ evaluates to false
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float][m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime[m[K’ evaluates to false
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:164[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double][m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX
+  157 |   [01;31m[KEIGEN_STATIC_ASSERT_VECTOR_ONLY[m[K(Derived)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime[m[K’ evaluates to false
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of ‘[01m[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float][m[K’:
+[01m[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX
+[01m[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime[m[K’ evaluates to false
+gmake[2]: *** [CMakeFiles/rf2o_laser_odometry_node.dir/build.make:90: CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rf2o_laser_odometry_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/rf2o_laser_odometry.dir/build.make:76: CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rf2o_laser_odometry.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

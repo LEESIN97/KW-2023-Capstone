@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.001541] (-) JobUnselected: {'identifier': 'action_msgs'}
+[0.002049] (-) JobUnselected: {'identifier': 'actionlib_msgs'}
+[0.002227] (-) JobUnselected: {'identifier': 'builtin_interfaces'}
+[0.002485] (-) JobUnselected: {'identifier': 'common_interfaces'}
+[0.002692] (-) JobUnselected: {'identifier': 'complex_msgs'}
+[0.002821] (-) JobUnselected: {'identifier': 'composition_interfaces'}
+[0.002896] (-) JobUnselected: {'identifier': 'diagnostic_msgs'}
+[0.002968] (-) JobUnselected: {'identifier': 'example_interfaces'}
+[0.003040] (-) JobUnselected: {'identifier': 'geometry_msgs'}
+[0.003111] (-) JobUnselected: {'identifier': 'lifecycle_msgs'}
+[0.003181] (-) JobUnselected: {'identifier': 'micro_ros_demos_rclc'}
+[0.003251] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.003322] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.003392] (-) JobUnselected: {'identifier': 'micro_ros_utilities'}
+[0.003463] (-) JobUnselected: {'identifier': 'microxrcedds_client'}
+[0.003568] (-) JobUnselected: {'identifier': 'nav_msgs'}
+[0.003640] (-) JobUnselected: {'identifier': 'rcl_interfaces'}
+[0.003711] (-) JobUnselected: {'identifier': 'rclc'}
+[0.003806] (-) JobUnselected: {'identifier': 'rclc_parameter'}
+[0.003904] (-) JobUnselected: {'identifier': 'rmw_microxrcedds'}
+[0.003976] (-) JobUnselected: {'identifier': 'rosgraph_msgs'}
+[0.004046] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c_tests'}
+[0.004118] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp'}
+[0.004189] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp_tests'}
+[0.004259] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_test_msg'}
+[0.004329] (-) JobUnselected: {'identifier': 'sensor_msgs'}
+[0.004399] (-) JobUnselected: {'identifier': 'sensor_msgs_py'}
+[0.004470] (-) JobUnselected: {'identifier': 'shape_msgs'}
+[0.004540] (-) JobUnselected: {'identifier': 'statistics_msgs'}
+[0.004609] (-) JobUnselected: {'identifier': 'std_msgs'}
+[0.004679] (-) JobUnselected: {'identifier': 'std_srvs'}
+[0.004749] (-) JobUnselected: {'identifier': 'stereo_msgs'}
+[0.004819] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.004889] (-) JobUnselected: {'identifier': 'test_msgs'}
+[0.004958] (-) JobUnselected: {'identifier': 'trajectory_msgs'}
+[0.005028] (-) JobUnselected: {'identifier': 'unique_identifier_msgs'}
+[0.005098] (-) JobUnselected: {'identifier': 'visualization_msgs'}
+[0.005168] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.005245] (microcdr) JobQueued: {'identifier': 'microcdr', 'dependencies': OrderedDict()}
+[0.005324] (rosidl_typesupport_microxrcedds_c) JobQueued: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'dependencies': OrderedDict([('microcdr', '/home/hb/hb_ws/install/microcdr')])}
+[0.005409] (microcdr) JobStarted: {'identifier': 'microcdr'}
+[0.051064] (microcdr) JobProgress: {'identifier': 'microcdr', 'progress': 'cmake'}
+[0.052283] (microcdr) Command: {'cmd': ['/usr/bin/cmake', '/home/hb/hb_ws/src/eProsima/Micro-CDR', '-DBUILD_TESTING=OFF', '-DBUILD_SHARED_LIBS=ON', 'host', '-DUCDR_ISOLATED_INSTALL=OFF', '-DBUILD_SHARED_LIBS=ON', '-DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/microcdr'], 'cwd': '/home/hb/hb_ws/build/microcdr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1009'), ('SYSTEMD_EXEC_PID', '1559'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UROS_VERBOSE_BUILD', 'off'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6820'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1192,unix/hb-desktop:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '8687be53bd45425a84aa536f69ec69ff'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MRYUL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:00db2726-833e-4dfc-9d03-c9dbbac82a20'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/microcdr'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup')]), 'shell': False}
+[0.091546] (microcdr) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/hb/hb_ws/build/microcdr/host" does not exist.\n'}
+[0.092582] (microcdr) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.097155] (microcdr) CommandEnded: {'returncode': 1}
+[0.098621] (-) TimerEvent: {}
+[0.105351] (microcdr) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[0.105989] (microcdr) JobEnded: {'identifier': 'microcdr', 'rc': 1}
+[0.117306] (rosidl_typesupport_microxrcedds_c) JobSkipped: {'identifier': 'rosidl_typesupport_microxrcedds_c'}
+[0.117487] (-) EventReactorShutdown: {}

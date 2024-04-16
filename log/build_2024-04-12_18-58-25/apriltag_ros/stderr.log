@@ -1,0 +1,7 @@
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:[m[K In constructor ‘[01m[KAprilTagNode::AprilTagNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:124:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope
+  124 |     td->refine_edges = [01;31m[KTrue[m[K;
+      |                        [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/AprilTagNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

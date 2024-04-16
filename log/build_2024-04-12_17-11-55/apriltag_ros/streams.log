@@ -1,0 +1,78 @@
+[0.179s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[1.799s] [ 16%] Built target tags
+[1.800s] [ 33%] Built target pose_estimation
+[1.801s] [ 66%] Built target apriltag_node
+[1.801s] [ 83%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[17.664s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:[m[K In constructor ‘[01m[KAprilTagNode::AprilTagNode(const rclcpp::NodeOptions&)[m[K’:
+[17.664s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:116:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase[m[K’ was not declared in this scope
+[17.665s]   116 |  = declare_parameter("tag.frames", std::vector<std::string>{[01;31m[Kbase[m[K, object}, descr("tag frame names per id", true));
+[17.665s]       |                                                             [01;31m[K^~~~[m[K
+[17.666s] 
+[17.713s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:116:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject[m[K’ was not declared in this scope
+[17.714s]   116 | lare_parameter("tag.frames", std::vector<std::string>{base, [01;31m[Kobject[m[K}, descr("tag frame names per id", true));
+[17.714s]       |                                                             [01;31m[K^~~~~~[m[K
+[17.714s] 
+[17.714s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:116:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::vector(<brace-enclosed initializer list>)[m[K’
+[17.715s]   116 | arameter("tag.frames", std::vector<std::string>{base, object[01;31m[K}[m[K, descr("tag frame names per id", true));
+[17.715s]       |                                                             [01;31m[K^[m[K
+[17.715s] 
+[17.716s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[17.716s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[17.716s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[17.716s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[17.717s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:8[m[K,
+[17.717s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[17.717s]                  from [01m[K/home/hb/hb_ws/src/apriltag_ros/src/pose_estimation.hpp:4[m[K,
+[17.717s]                  from [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:2[m[K:
+[17.718s] [01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.718s]   653 |         [01;36m[Kvector[m[K(_InputIterator __first, _InputIterator __last,
+[17.718s]       |         [01;36m[K^~~~~~[m[K
+[17.719s] [01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.720s] [01m[K/usr/include/c++/11/bits/stl_vector.h:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.721s]   625 |       [01;36m[Kvector[m[K(initializer_list<value_type> __l,
+[17.721s]       |       [01;36m[K^~~~~~[m[K
+[17.722s] [01m[K/usr/include/c++/11/bits/stl_vector.h:625:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[17.723s] [01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.723s]   607 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m)
+[17.724s]       |       [01;36m[K^~~~~~[m[K
+[17.724s] [01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[17.725s] [01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&, std::false_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >; std::false_type = std::integral_constant<bool, false>][m[K’
+[17.725s]   589 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, false_type)
+[17.726s]       |       [01;36m[K^~~~~~[m[K
+[17.726s] [01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[17.727s] [01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >; std::true_type = std::integral_constant<bool, true>][m[K’
+[17.727s]   585 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, true_type) noexcept
+[17.728s]       |       [01;36m[K^~~~~~[m[K
+[17.728s] [01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[17.729s] [01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.730s]   575 |       [01;36m[Kvector[m[K(const vector& __x, const allocator_type& __a)
+[17.730s]       |       [01;36m[K^~~~~~[m[K
+[17.731s] [01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[17.731s] [01m[K/usr/include/c++/11/bits/stl_vector.h:572:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.732s]   572 |       [01;36m[Kvector[m[K(vector&&) noexcept = default;
+[17.732s]       |       [01;36m[K^~~~~~[m[K
+[17.733s] [01m[K/usr/include/c++/11/bits/stl_vector.h:572:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[17.733s] [01m[K/usr/include/c++/11/bits/stl_vector.h:553:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.733s]   553 |       [01;36m[Kvector[m[K(const vector& __x)
+[17.734s]       |       [01;36m[K^~~~~~[m[K
+[17.734s] [01m[K/usr/include/c++/11/bits/stl_vector.h:553:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[17.734s] [01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.735s]   522 |       [01;36m[Kvector[m[K(size_type __n, const value_type& __value,
+[17.735s]       |       [01;36m[K^~~~~~[m[K
+[17.736s] [01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[17.736s] [01m[K/usr/include/c++/11/bits/stl_vector.h:510:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.737s]   510 |       [01;36m[Kvector[m[K(size_type __n, const allocator_type& __a = allocator_type())
+[17.737s]       |       [01;36m[K^~~~~~[m[K
+[17.737s] [01m[K/usr/include/c++/11/bits/stl_vector.h:510:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[17.738s] [01m[K/usr/include/c++/11/bits/stl_vector.h:497:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.738s]   497 |       [01;36m[Kvector[m[K(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+[17.739s]       |       [01;36m[K^~~~~~[m[K
+[17.739s] [01m[K/usr/include/c++/11/bits/stl_vector.h:497:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[17.739s] [01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::vector() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[17.740s]   487 |       [01;36m[Kvector[m[K() = default;
+[17.740s]       |       [01;36m[K^~~~~~[m[K
+[17.740s] [01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[23.212s] gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Error 1
+[23.213s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/AprilTagNode.dir/all] Error 2
+[23.214s] gmake: *** [Makefile:146: all] Error 2
+[23.222s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '2': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4

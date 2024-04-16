@@ -1,0 +1,34 @@
+[0.179s] Invoking command in '/home/hb/hb_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4
+[1.793s] [ 16%] Built target tags
+[1.794s] [ 33%] Built target pose_estimation
+[1.795s] [ 66%] Built target apriltag_node
+[1.796s] [35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[1.796s] [ 83%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[16.292s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.293s]    71 |     [01;31m[Ktd[m[K->nthreads = 1;
+[16.293s]       |     [01;31m[K^~[m[K
+[16.294s]       |     [32m[Ktm[m[K
+[16.300s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.300s]    72 |     [01;31m[Ktd[m[K->quad_decimate = 2.0;
+[16.301s]       |     [01;31m[K^~[m[K
+[16.302s]       |     [32m[Ktm[m[K
+[16.311s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.312s]    73 |     [01;31m[Ktd[m[K->quad_sigma = 0.0;
+[16.313s]       |     [01;31m[K^~[m[K
+[16.314s]       |     [32m[Ktm[m[K
+[16.319s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.320s]    74 |     [01;31m[Ktd[m[K->refine_edges = True;
+[16.320s]       |     [01;31m[K^~[m[K
+[16.321s]       |     [32m[Ktm[m[K
+[16.327s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.327s]    75 |     [01;31m[Ktd[m[K->decode_sharpening = 0.25;
+[16.328s]       |     [01;31m[K^~[m[K
+[16.328s]       |     [32m[Ktm[m[K
+[16.336s] [01m[K/home/hb/hb_ws/src/apriltag_ros/src/AprilTagNode.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[16.336s]    76 |     [01;31m[Ktd[m[K->debug = false;
+[16.336s]       |     [01;31m[K^~[m[K
+[16.337s]       |     [32m[Ktm[m[K
+[22.251s] gmake[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:76: CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o] Error 1
+[22.254s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/AprilTagNode.dir/all] Error 2
+[22.255s] gmake: *** [Makefile:146: all] Error 2
+[22.264s] Invoked command in '/home/hb/hb_ws/build/apriltag_ros' returned '2': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/usb_cam:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/home/hb/hb_ws/install/apriltag_ros /usr/bin/cmake --build /home/hb/hb_ws/build/apriltag_ros -- -j4 -l4

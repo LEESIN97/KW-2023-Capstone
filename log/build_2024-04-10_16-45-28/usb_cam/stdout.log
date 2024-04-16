@@ -1,0 +1,13 @@
+[  7%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 35%] Built target gtest_main
+[ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[ 42%] Built target usb_cam
+[ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 57%] Built target gtest
+[ 64%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[ 64%] Built target usb_cam_node_exe

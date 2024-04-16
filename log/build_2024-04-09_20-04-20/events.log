@@ -1,0 +1,1383 @@
+[0.000000] (-) TimerEvent: {}
+[0.001681] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.001810] (serial_communication) JobQueued: {'identifier': 'serial_communication', 'dependencies': OrderedDict()}
+[0.002358] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002852] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.003031] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.042952] (serial_communication) JobStarted: {'identifier': 'serial_communication'}
+[0.088370] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.098962] (-) TimerEvent: {}
+[0.117443] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.162480] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.163564] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/hb/hb_ws/src/rf2o_laser_odometry', '-DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/rf2o_laser_odometry'], 'cwd': '/home/hb/hb_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[0.199213] (-) TimerEvent: {}
+[0.300194] (-) TimerEvent: {}
+[0.400966] (-) TimerEvent: {}
+[0.501806] (-) TimerEvent: {}
+[0.602911] (-) TimerEvent: {}
+[0.703699] (-) TimerEvent: {}
+[0.804422] (-) TimerEvent: {}
+[0.905228] (-) TimerEvent: {}
+[1.005989] (-) TimerEvent: {}
+[1.106818] (-) TimerEvent: {}
+[1.207528] (-) TimerEvent: {}
+[1.308333] (-) TimerEvent: {}
+[1.409218] (-) TimerEvent: {}
+[1.509982] (-) TimerEvent: {}
+[1.610882] (-) TimerEvent: {}
+[1.713134] (-) TimerEvent: {}
+[1.757336] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.765490] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[1.768621] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/teleop_twist_joy', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[1.783297] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.784257] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.791141] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[1.799667] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[1.801154] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[1.818677] (-) TimerEvent: {}
+[1.844737] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.918854] (-) TimerEvent: {}
+[2.020442] (-) TimerEvent: {}
+[2.121780] (-) TimerEvent: {}
+[2.164702] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target teleop_twist_joy\x1b[0m\n'}
+[2.222165] (-) TimerEvent: {}
+[2.323791] (-) TimerEvent: {}
+[2.338721] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[2.361629] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[2.380354] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[2.390497] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.419323] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.423046] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.423912] (-) TimerEvent: {}
+[2.427948] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.448142] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.452799] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node\x1b[0m\n'}
+[2.524136] (-) TimerEvent: {}
+[2.551400] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[2.612771] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[2.624381] (-) TimerEvent: {}
+[2.725267] (-) TimerEvent: {}
+[2.827530] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[2.827747] (-) TimerEvent: {}
+[2.875459] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hb/hb_ws/build/teleop_twist_joy'], 'cwd': '/home/hb/hb_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[2.928548] (-) TimerEvent: {}
+[2.933459] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.938190] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[2.943170] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[2.944625] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.945564] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[2.947502] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[2.948027] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[2.948580] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[2.949350] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[2.950128] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[2.952414] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[2.961467] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[2.962628] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps4.config.yaml\n'}
+[2.963109] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[2.963507] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[2.963943] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[2.964327] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[2.964713] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[2.965103] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[2.965556] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[2.966126] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[2.966748] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[2.967257] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[2.967880] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[2.968434] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[2.969118] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[2.969624] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[2.970110] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[2.970576] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[2.971017] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[2.971475] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[2.971887] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[2.978047] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[2.978833] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[2.979881] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.981591] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.983123] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.985869] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[2.986696] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[2.987739] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[2.988444] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[3.008991] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.010548] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.011903] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.028773] (-) TimerEvent: {}
+[3.060583] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.131095] (-) TimerEvent: {}
+[3.232471] (-) TimerEvent: {}
+[3.333749] (-) TimerEvent: {}
+[3.372711] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[3.434124] (-) TimerEvent: {}
+[3.534941] (-) TimerEvent: {}
+[3.635768] (-) TimerEvent: {}
+[3.736540] (-) TimerEvent: {}
+[3.859400] (-) TimerEvent: {}
+[3.960128] (-) TimerEvent: {}
+[4.058389] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.060305] (-) TimerEvent: {}
+[4.161076] (-) TimerEvent: {}
+[4.262083] (-) TimerEvent: {}
+[4.363449] (-) TimerEvent: {}
+[4.464875] (-) TimerEvent: {}
+[4.486740] (serial_communication) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_communication', 'build', '--build-base', '/home/hb/hb_ws/build/serial_communication/build', 'install', '--record', '/home/hb/hb_ws/build/serial_communication/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hb/hb_ws/src/serial_communication', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'hb', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hb', 'OLDPWD': '/home/hb', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1026', 'SYSTEMD_EXEC_PID': '1577', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11495', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hb/hb_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hb', 'JOURNAL_STREAM': '8:24734', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hb', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201', 'INVOCATION_ID': '124d0fa68f244f1c92864c2e684c1e24', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IS31L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hb/hb_ws/build/serial_communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs'}, 'shell': False}
+[4.565228] (-) TimerEvent: {}
+[4.667157] (-) TimerEvent: {}
+[4.768210] (-) TimerEvent: {}
+[4.869374] (-) TimerEvent: {}
+[4.962433] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.969525] (-) TimerEvent: {}
+[5.070714] (-) TimerEvent: {}
+[5.171912] (-) TimerEvent: {}
+[5.273333] (-) TimerEvent: {}
+[5.375020] (-) TimerEvent: {}
+[5.475940] (-) TimerEvent: {}
+[5.513185] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.576173] (-) TimerEvent: {}
+[5.588346] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.676421] (-) TimerEvent: {}
+[5.689939] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.776623] (-) TimerEvent: {}
+[5.832771] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.876872] (-) TimerEvent: {}
+[5.978786] (-) TimerEvent: {}
+[6.033400] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.079009] (-) TimerEvent: {}
+[6.180419] (-) TimerEvent: {}
+[6.196578] (serial_communication) StdoutLine: {'line': b'running egg_info\n'}
+[6.200370] (serial_communication) StdoutLine: {'line': b'writing ../../build/serial_communication/serial_communication.egg-info/PKG-INFO\n'}
+[6.202051] (serial_communication) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_communication/serial_communication.egg-info/dependency_links.txt\n'}
+[6.203513] (serial_communication) StdoutLine: {'line': b'writing entry points to ../../build/serial_communication/serial_communication.egg-info/entry_points.txt\n'}
+[6.204551] (serial_communication) StdoutLine: {'line': b'writing requirements to ../../build/serial_communication/serial_communication.egg-info/requires.txt\n'}
+[6.205489] (serial_communication) StdoutLine: {'line': b'writing top-level names to ../../build/serial_communication/serial_communication.egg-info/top_level.txt\n'}
+[6.219842] (serial_communication) StdoutLine: {'line': b"reading manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'\n"}
+[6.226737] (serial_communication) StdoutLine: {'line': b"writing manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'\n"}
+[6.228776] (serial_communication) StdoutLine: {'line': b'running build\n'}
+[6.230606] (serial_communication) StdoutLine: {'line': b'running build_py\n'}
+[6.231916] (serial_communication) StdoutLine: {'line': b'running install\n'}
+[6.233989] (serial_communication) StdoutLine: {'line': b'running install_lib\n'}
+[6.242523] (serial_communication) StdoutLine: {'line': b'running install_data\n'}
+[6.243552] (serial_communication) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.253043] (serial_communication) StdoutLine: {'line': b"removing '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.256114] (serial_communication) StdoutLine: {'line': b'Copying ../../build/serial_communication/serial_communication.egg-info to /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info\n'}
+[6.268714] (serial_communication) StdoutLine: {'line': b'running install_scripts\n'}
+[6.280681] (-) TimerEvent: {}
+[6.382202] (serial_communication) StdoutLine: {'line': b'Installing teleop_serial script to /home/hb/hb_ws/install/serial_communication/lib/serial_communication\n'}
+[6.382984] (-) TimerEvent: {}
+[6.384661] (serial_communication) StdoutLine: {'line': b"writing list of installed files to '/home/hb/hb_ws/build/serial_communication/install.log'\n"}
+[6.483528] (-) TimerEvent: {}
+[6.566521] (serial_communication) CommandEnded: {'returncode': 0}
+[6.584487] (-) TimerEvent: {}
+[6.597704] (serial_communication) JobEnded: {'identifier': 'serial_communication', 'rc': 0}
+[6.684723] (-) TimerEvent: {}
+[6.705046] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.751090] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.784946] (-) TimerEvent: {}
+[6.886195] (-) TimerEvent: {}
+[6.987295] (-) TimerEvent: {}
+[7.088782] (-) TimerEvent: {}
+[7.189736] (-) TimerEvent: {}
+[7.290841] (-) TimerEvent: {}
+[7.392280] (-) TimerEvent: {}
+[7.493132] (-) TimerEvent: {}
+[7.571503] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.593345] (-) TimerEvent: {}
+[7.694357] (-) TimerEvent: {}
+[7.795348] (-) TimerEvent: {}
+[7.872714] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.895556] (-) TimerEvent: {}
+[7.996534] (-) TimerEvent: {}
+[8.097381] (-) TimerEvent: {}
+[8.198235] (-) TimerEvent: {}
+[8.299071] (-) TimerEvent: {}
+[8.380388] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.399325] (-) TimerEvent: {}
+[8.500156] (-) TimerEvent: {}
+[8.514592] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.600439] (-) TimerEvent: {}
+[8.701682] (-) TimerEvent: {}
+[8.802637] (-) TimerEvent: {}
+[8.913246] (-) TimerEvent: {}
+[8.928452] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.930665] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.013462] (-) TimerEvent: {}
+[9.114400] (-) TimerEvent: {}
+[9.215346] (-) TimerEvent: {}
+[9.317303] (-) TimerEvent: {}
+[9.336409] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.340664] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.417561] (-) TimerEvent: {}
+[9.518859] (-) TimerEvent: {}
+[9.619976] (-) TimerEvent: {}
+[9.721163] (-) TimerEvent: {}
+[9.822036] (-) TimerEvent: {}
+[9.922963] (-) TimerEvent: {}
+[10.023799] (-) TimerEvent: {}
+[10.124656] (-) TimerEvent: {}
+[10.225623] (-) TimerEvent: {}
+[10.238819] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.325889] (-) TimerEvent: {}
+[10.426712] (-) TimerEvent: {}
+[10.474531] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[10.526918] (-) TimerEvent: {}
+[10.627721] (-) TimerEvent: {}
+[10.722600] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.727942] (-) TimerEvent: {}
+[10.730644] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.731538] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.828172] (-) TimerEvent: {}
+[10.929017] (-) TimerEvent: {}
+[11.029924] (-) TimerEvent: {}
+[11.130811] (-) TimerEvent: {}
+[11.231662] (-) TimerEvent: {}
+[11.332489] (-) TimerEvent: {}
+[11.433350] (-) TimerEvent: {}
+[11.534276] (-) TimerEvent: {}
+[11.635116] (-) TimerEvent: {}
+[11.735955] (-) TimerEvent: {}
+[11.836858] (-) TimerEvent: {}
+[11.937706] (-) TimerEvent: {}
+[12.038670] (-) TimerEvent: {}
+[12.139547] (-) TimerEvent: {}
+[12.240391] (-) TimerEvent: {}
+[12.341239] (-) TimerEvent: {}
+[12.442201] (-) TimerEvent: {}
+[12.543072] (-) TimerEvent: {}
+[12.643947] (-) TimerEvent: {}
+[12.736403] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.744154] (-) TimerEvent: {}
+[12.845068] (-) TimerEvent: {}
+[12.945977] (-) TimerEvent: {}
+[13.046896] (-) TimerEvent: {}
+[13.131194] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[13.147139] (-) TimerEvent: {}
+[13.247986] (-) TimerEvent: {}
+[13.348955] (-) TimerEvent: {}
+[13.449819] (-) TimerEvent: {}
+[13.550771] (-) TimerEvent: {}
+[13.592646] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[13.651017] (-) TimerEvent: {}
+[13.751908] (-) TimerEvent: {}
+[13.852948] (-) TimerEvent: {}
+[13.954156] (-) TimerEvent: {}
+[14.046806] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.054342] (-) TimerEvent: {}
+[14.155251] (-) TimerEvent: {}
+[14.156775] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[14.166324] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/hb/hb_ws/build/rf2o_laser_odometry\n'}
+[14.226724] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[14.229579] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[14.231070] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hb/hb_ws/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/hb/hb_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[14.255484] (-) TimerEvent: {}
+[14.356973] (-) TimerEvent: {}
+[14.459609] (-) TimerEvent: {}
+[14.495935] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[14.505182] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[14.512215] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[14.559948] (-) TimerEvent: {}
+[14.661262] (-) TimerEvent: {}
+[14.762745] (-) TimerEvent: {}
+[14.863731] (-) TimerEvent: {}
+[14.964791] (-) TimerEvent: {}
+[15.065671] (-) TimerEvent: {}
+[15.166821] (-) TimerEvent: {}
+[15.267857] (-) TimerEvent: {}
+[15.368828] (-) TimerEvent: {}
+[15.469824] (-) TimerEvent: {}
+[15.570794] (-) TimerEvent: {}
+[15.671681] (-) TimerEvent: {}
+[15.772599] (-) TimerEvent: {}
+[15.873498] (-) TimerEvent: {}
+[15.975425] (-) TimerEvent: {}
+[16.076361] (-) TimerEvent: {}
+[16.177261] (-) TimerEvent: {}
+[16.278571] (-) TimerEvent: {}
+[16.379441] (-) TimerEvent: {}
+[16.480310] (-) TimerEvent: {}
+[16.581183] (-) TimerEvent: {}
+[16.682239] (-) TimerEvent: {}
+[16.783259] (-) TimerEvent: {}
+[16.884340] (-) TimerEvent: {}
+[16.985423] (-) TimerEvent: {}
+[17.086457] (-) TimerEvent: {}
+[17.188146] (-) TimerEvent: {}
+[17.289712] (-) TimerEvent: {}
+[17.390778] (-) TimerEvent: {}
+[17.492022] (-) TimerEvent: {}
+[17.593003] (-) TimerEvent: {}
+[17.694365] (-) TimerEvent: {}
+[17.777816] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9\x1b[m\x1b[K,\n'}
+[17.778831] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:18\x1b[m\x1b[K:\n'}
+[17.779641] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.780498] (rf2o_laser_odometry) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[17.781257] (rf2o_laser_odometry) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.794615] (-) TimerEvent: {}
+[17.896428] (-) TimerEvent: {}
+[17.998396] (-) TimerEvent: {}
+[18.099536] (-) TimerEvent: {}
+[18.200868] (-) TimerEvent: {}
+[18.302075] (-) TimerEvent: {}
+[18.403405] (-) TimerEvent: {}
+[18.504728] (-) TimerEvent: {}
+[18.606168] (-) TimerEvent: {}
+[18.707592] (-) TimerEvent: {}
+[18.808883] (-) TimerEvent: {}
+[18.910055] (-) TimerEvent: {}
+[19.011299] (-) TimerEvent: {}
+[19.134752] (-) TimerEvent: {}
+[19.236027] (-) TimerEvent: {}
+[19.337313] (-) TimerEvent: {}
+[19.438335] (-) TimerEvent: {}
+[19.539938] (-) TimerEvent: {}
+[19.641119] (-) TimerEvent: {}
+[19.742326] (-) TimerEvent: {}
+[19.843470] (-) TimerEvent: {}
+[19.944599] (-) TimerEvent: {}
+[20.045644] (-) TimerEvent: {}
+[20.146961] (-) TimerEvent: {}
+[20.248072] (-) TimerEvent: {}
+[20.349487] (-) TimerEvent: {}
+[20.450700] (-) TimerEvent: {}
+[20.551811] (-) TimerEvent: {}
+[20.652942] (-) TimerEvent: {}
+[20.754103] (-) TimerEvent: {}
+[20.855339] (-) TimerEvent: {}
+[20.956542] (-) TimerEvent: {}
+[21.058016] (-) TimerEvent: {}
+[21.159145] (-) TimerEvent: {}
+[21.260212] (-) TimerEvent: {}
+[21.361305] (-) TimerEvent: {}
+[21.462506] (-) TimerEvent: {}
+[21.563973] (-) TimerEvent: {}
+[21.665342] (-) TimerEvent: {}
+[21.766756] (-) TimerEvent: {}
+[21.868084] (-) TimerEvent: {}
+[21.969665] (-) TimerEvent: {}
+[22.070931] (-) TimerEvent: {}
+[22.172418] (-) TimerEvent: {}
+[22.273777] (-) TimerEvent: {}
+[22.375149] (-) TimerEvent: {}
+[22.476553] (-) TimerEvent: {}
+[22.577753] (-) TimerEvent: {}
+[22.678971] (-) TimerEvent: {}
+[22.780129] (-) TimerEvent: {}
+[22.881443] (-) TimerEvent: {}
+[22.982632] (-) TimerEvent: {}
+[23.083778] (-) TimerEvent: {}
+[23.184938] (-) TimerEvent: {}
+[23.286126] (-) TimerEvent: {}
+[23.387349] (-) TimerEvent: {}
+[23.488778] (-) TimerEvent: {}
+[23.589977] (-) TimerEvent: {}
+[23.691158] (-) TimerEvent: {}
+[23.792400] (-) TimerEvent: {}
+[23.893679] (-) TimerEvent: {}
+[23.994940] (-) TimerEvent: {}
+[24.096084] (-) TimerEvent: {}
+[24.197418] (-) TimerEvent: {}
+[24.298810] (-) TimerEvent: {}
+[24.400019] (-) TimerEvent: {}
+[24.501707] (-) TimerEvent: {}
+[24.602958] (-) TimerEvent: {}
+[24.704046] (-) TimerEvent: {}
+[24.805477] (-) TimerEvent: {}
+[24.906923] (-) TimerEvent: {}
+[25.008148] (-) TimerEvent: {}
+[25.109535] (-) TimerEvent: {}
+[25.210979] (-) TimerEvent: {}
+[25.312160] (-) TimerEvent: {}
+[25.413384] (-) TimerEvent: {}
+[25.514697] (-) TimerEvent: {}
+[25.615933] (-) TimerEvent: {}
+[25.717344] (-) TimerEvent: {}
+[25.818664] (-) TimerEvent: {}
+[25.920015] (-) TimerEvent: {}
+[26.021487] (-) TimerEvent: {}
+[26.122927] (-) TimerEvent: {}
+[26.224444] (-) TimerEvent: {}
+[26.326976] (-) TimerEvent: {}
+[26.429097] (-) TimerEvent: {}
+[26.531234] (-) TimerEvent: {}
+[26.632697] (-) TimerEvent: {}
+[26.733928] (-) TimerEvent: {}
+[26.836082] (-) TimerEvent: {}
+[26.937253] (-) TimerEvent: {}
+[27.038410] (-) TimerEvent: {}
+[27.140257] (-) TimerEvent: {}
+[27.241497] (-) TimerEvent: {}
+[27.342828] (-) TimerEvent: {}
+[27.443963] (-) TimerEvent: {}
+[27.545262] (-) TimerEvent: {}
+[27.646360] (-) TimerEvent: {}
+[27.747508] (-) TimerEvent: {}
+[27.848662] (-) TimerEvent: {}
+[27.949900] (-) TimerEvent: {}
+[28.051160] (-) TimerEvent: {}
+[28.152446] (-) TimerEvent: {}
+[28.253674] (-) TimerEvent: {}
+[28.355198] (-) TimerEvent: {}
+[28.456870] (-) TimerEvent: {}
+[28.558061] (-) TimerEvent: {}
+[28.659044] (-) TimerEvent: {}
+[28.760203] (-) TimerEvent: {}
+[28.861614] (-) TimerEvent: {}
+[28.962838] (-) TimerEvent: {}
+[29.063947] (-) TimerEvent: {}
+[29.165171] (-) TimerEvent: {}
+[29.266878] (-) TimerEvent: {}
+[29.368342] (-) TimerEvent: {}
+[29.469385] (-) TimerEvent: {}
+[29.571246] (-) TimerEvent: {}
+[29.673556] (-) TimerEvent: {}
+[29.775319] (-) TimerEvent: {}
+[29.877162] (-) TimerEvent: {}
+[29.978247] (-) TimerEvent: {}
+[30.079346] (-) TimerEvent: {}
+[30.181020] (-) TimerEvent: {}
+[30.283066] (-) TimerEvent: {}
+[30.386091] (-) TimerEvent: {}
+[30.487756] (-) TimerEvent: {}
+[30.589896] (-) TimerEvent: {}
+[30.691095] (-) TimerEvent: {}
+[30.792293] (-) TimerEvent: {}
+[30.893274] (-) TimerEvent: {}
+[30.994484] (-) TimerEvent: {}
+[31.095701] (-) TimerEvent: {}
+[31.197961] (-) TimerEvent: {}
+[31.299675] (-) TimerEvent: {}
+[31.401273] (-) TimerEvent: {}
+[31.502922] (-) TimerEvent: {}
+[31.604234] (-) TimerEvent: {}
+[31.705429] (-) TimerEvent: {}
+[31.806630] (-) TimerEvent: {}
+[31.907797] (-) TimerEvent: {}
+[32.009064] (-) TimerEvent: {}
+[32.110198] (-) TimerEvent: {}
+[32.211376] (-) TimerEvent: {}
+[32.312564] (-) TimerEvent: {}
+[32.413814] (-) TimerEvent: {}
+[32.515613] (-) TimerEvent: {}
+[32.616777] (-) TimerEvent: {}
+[32.718027] (-) TimerEvent: {}
+[32.819217] (-) TimerEvent: {}
+[32.920389] (-) TimerEvent: {}
+[33.021511] (-) TimerEvent: {}
+[33.122776] (-) TimerEvent: {}
+[33.223853] (-) TimerEvent: {}
+[33.325057] (-) TimerEvent: {}
+[33.426257] (-) TimerEvent: {}
+[33.527425] (-) TimerEvent: {}
+[33.628653] (-) TimerEvent: {}
+[33.729872] (-) TimerEvent: {}
+[33.831199] (-) TimerEvent: {}
+[33.932636] (-) TimerEvent: {}
+[34.034064] (-) TimerEvent: {}
+[34.135380] (-) TimerEvent: {}
+[34.236687] (-) TimerEvent: {}
+[34.338068] (-) TimerEvent: {}
+[34.439455] (-) TimerEvent: {}
+[34.540838] (-) TimerEvent: {}
+[34.642035] (-) TimerEvent: {}
+[34.743346] (-) TimerEvent: {}
+[34.844718] (-) TimerEvent: {}
+[34.946057] (-) TimerEvent: {}
+[35.047319] (-) TimerEvent: {}
+[35.148489] (-) TimerEvent: {}
+[35.250345] (-) TimerEvent: {}
+[35.351795] (-) TimerEvent: {}
+[35.453158] (-) TimerEvent: {}
+[35.554380] (-) TimerEvent: {}
+[35.655804] (-) TimerEvent: {}
+[35.757652] (-) TimerEvent: {}
+[35.859115] (-) TimerEvent: {}
+[35.960489] (-) TimerEvent: {}
+[36.061896] (-) TimerEvent: {}
+[36.163176] (-) TimerEvent: {}
+[36.264455] (-) TimerEvent: {}
+[36.365967] (-) TimerEvent: {}
+[36.467404] (-) TimerEvent: {}
+[36.568955] (-) TimerEvent: {}
+[36.670413] (-) TimerEvent: {}
+[36.771626] (-) TimerEvent: {}
+[36.872879] (-) TimerEvent: {}
+[36.974701] (-) TimerEvent: {}
+[37.076431] (-) TimerEvent: {}
+[37.178114] (-) TimerEvent: {}
+[37.279873] (-) TimerEvent: {}
+[37.381250] (-) TimerEvent: {}
+[37.482657] (-) TimerEvent: {}
+[37.583727] (-) TimerEvent: {}
+[37.684911] (-) TimerEvent: {}
+[37.786145] (-) TimerEvent: {}
+[37.887258] (-) TimerEvent: {}
+[37.988484] (-) TimerEvent: {}
+[38.089785] (-) TimerEvent: {}
+[38.190932] (-) TimerEvent: {}
+[38.292623] (-) TimerEvent: {}
+[38.394415] (-) TimerEvent: {}
+[38.496334] (-) TimerEvent: {}
+[38.598054] (-) TimerEvent: {}
+[38.699218] (-) TimerEvent: {}
+[38.800550] (-) TimerEvent: {}
+[38.901787] (-) TimerEvent: {}
+[39.003284] (-) TimerEvent: {}
+[39.104435] (-) TimerEvent: {}
+[39.205676] (-) TimerEvent: {}
+[39.306864] (-) TimerEvent: {}
+[39.408188] (-) TimerEvent: {}
+[39.509462] (-) TimerEvent: {}
+[39.610693] (-) TimerEvent: {}
+[39.711790] (-) TimerEvent: {}
+[39.813135] (-) TimerEvent: {}
+[39.914476] (-) TimerEvent: {}
+[40.015958] (-) TimerEvent: {}
+[40.117246] (-) TimerEvent: {}
+[40.218460] (-) TimerEvent: {}
+[40.319777] (-) TimerEvent: {}
+[40.421241] (-) TimerEvent: {}
+[40.522483] (-) TimerEvent: {}
+[40.623620] (-) TimerEvent: {}
+[40.724765] (-) TimerEvent: {}
+[40.825936] (-) TimerEvent: {}
+[40.843814] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.845291] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[40.846955] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[40.848601] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[40.849991] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[40.851619] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.852503] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.853308] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.854134] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.855151] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[40.855842] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.856523] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.857348] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.859058] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[40.859741] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[40.860498] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[40.861233] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.874123] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.875084] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.876035] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.877068] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[40.877908] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.878678] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.879411] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.880371] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[40.881253] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[40.882171] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[40.882989] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.883849] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.884858] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.885753] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.898832] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[40.899697] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.900516] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.901603] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.902630] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[40.903501] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[40.913987] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[40.915748] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[40.916785] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[40.917608] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[40.918476] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.919389] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.920187] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.921054] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.921992] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[40.923544] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.924288] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.925087] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.925963] (-) TimerEvent: {}
+[40.937789] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[40.938619] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[40.939390] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[40.940180] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.941078] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.941771] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.942665] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.943633] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[40.944405] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.945221] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.946057] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.946868] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[40.947543] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[40.948371] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[40.949143] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[40.961983] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[40.962980] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[40.963950] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.964944] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[40.965771] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.966683] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[40.982643] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.983532] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[40.984462] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[41.026217] (-) TimerEvent: {}
+[41.127258] (-) TimerEvent: {}
+[41.228341] (-) TimerEvent: {}
+[41.329617] (-) TimerEvent: {}
+[41.350942] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.353241] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[41.354241] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[41.355089] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.355913] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[41.356872] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.357889] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.358826] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.359579] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.360441] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[41.361635] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.368396] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.369510] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.370503] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[41.371386] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[41.372250] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[41.373042] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.373816] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.374706] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.375508] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.376366] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[41.377304] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.378194] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.378881] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.379598] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[41.380361] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[41.381205] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[41.394282] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.395092] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.396015] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.396780] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.397726] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[41.398648] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.399433] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.400310] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.401154] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[41.402100] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[41.413538] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[41.415481] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[41.416277] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[41.417072] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[41.417811] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.418784] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.419534] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.420338] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.421170] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[41.422050] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.422840] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.423669] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.424444] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[41.425259] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[41.438577] (-) TimerEvent: {}
+[41.439510] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[41.440566] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.441427] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.442316] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.443103] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.443999] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[41.444870] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.445482] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.446391] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.447166] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[41.447982] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[41.448731] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[41.449605] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[41.462718] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[41.463681] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[41.464624] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.465464] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[41.466441] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.467384] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[41.468173] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.468856] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[41.469536] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[41.538869] (-) TimerEvent: {}
+[41.640077] (-) TimerEvent: {}
+[41.741266] (-) TimerEvent: {}
+[41.842431] (-) TimerEvent: {}
+[41.943678] (-) TimerEvent: {}
+[42.044783] (-) TimerEvent: {}
+[42.145815] (-) TimerEvent: {}
+[42.247011] (-) TimerEvent: {}
+[42.348096] (-) TimerEvent: {}
+[42.449139] (-) TimerEvent: {}
+[42.550227] (-) TimerEvent: {}
+[42.651470] (-) TimerEvent: {}
+[42.752876] (-) TimerEvent: {}
+[42.854192] (-) TimerEvent: {}
+[42.955900] (-) TimerEvent: {}
+[42.989857] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[42.991432] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[42.992321] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[42.993133] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[42.994644] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[42.995654] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[42.996612] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[42.997391] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[42.998273] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[42.999054] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[42.999910] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.006217] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[43.007125] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[43.007999] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[43.056290] (-) TimerEvent: {}
+[43.157559] (-) TimerEvent: {}
+[43.258773] (-) TimerEvent: {}
+[43.359840] (-) TimerEvent: {}
+[43.461201] (-) TimerEvent: {}
+[43.562377] (-) TimerEvent: {}
+[43.630663] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[43.631847] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[43.632767] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[43.633582] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[43.634693] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.635662] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[43.636552] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[43.637505] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[43.638969] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[43.639793] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[43.640590] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.641511] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hb/hb_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[43.650691] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[43.651498] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[43.662648] (-) TimerEvent: {}
+[43.763976] (-) TimerEvent: {}
+[43.865199] (-) TimerEvent: {}
+[43.966432] (-) TimerEvent: {}
+[44.067717] (-) TimerEvent: {}
+[44.168997] (-) TimerEvent: {}
+[44.270367] (-) TimerEvent: {}
+[44.371623] (-) TimerEvent: {}
+[44.472810] (-) TimerEvent: {}
+[44.574112] (-) TimerEvent: {}
+[44.675472] (-) TimerEvent: {}
+[44.776909] (-) TimerEvent: {}
+[44.878215] (-) TimerEvent: {}
+[44.979302] (-) TimerEvent: {}
+[45.080511] (-) TimerEvent: {}
+[45.181654] (-) TimerEvent: {}
+[45.282805] (-) TimerEvent: {}
+[45.384010] (-) TimerEvent: {}
+[45.485130] (-) TimerEvent: {}
+[45.586282] (-) TimerEvent: {}
+[45.687481] (-) TimerEvent: {}
+[45.788699] (-) TimerEvent: {}
+[45.889926] (-) TimerEvent: {}
+[45.990973] (-) TimerEvent: {}
+[46.092096] (-) TimerEvent: {}
+[46.193187] (-) TimerEvent: {}
+[46.294199] (-) TimerEvent: {}
+[46.395307] (-) TimerEvent: {}
+[46.496446] (-) TimerEvent: {}
+[46.597690] (-) TimerEvent: {}
+[46.698911] (-) TimerEvent: {}
+[46.800106] (-) TimerEvent: {}
+[46.901310] (-) TimerEvent: {}
+[47.002534] (-) TimerEvent: {}
+[47.103743] (-) TimerEvent: {}
+[47.204920] (-) TimerEvent: {}
+[47.306057] (-) TimerEvent: {}
+[47.408060] (-) TimerEvent: {}
+[47.510074] (-) TimerEvent: {}
+[47.611450] (-) TimerEvent: {}
+[47.713188] (-) TimerEvent: {}
+[47.814891] (-) TimerEvent: {}
+[47.916376] (-) TimerEvent: {}
+[48.017490] (-) TimerEvent: {}
+[48.118572] (-) TimerEvent: {}
+[48.219871] (-) TimerEvent: {}
+[48.321175] (-) TimerEvent: {}
+[48.422387] (-) TimerEvent: {}
+[48.524135] (-) TimerEvent: {}
+[48.625564] (-) TimerEvent: {}
+[48.727013] (-) TimerEvent: {}
+[48.828465] (-) TimerEvent: {}
+[48.930118] (-) TimerEvent: {}
+[49.031840] (-) TimerEvent: {}
+[49.132862] (-) TimerEvent: {}
+[49.234018] (-) TimerEvent: {}
+[49.335242] (-) TimerEvent: {}
+[49.436449] (-) TimerEvent: {}
+[49.537525] (-) TimerEvent: {}
+[49.638722] (-) TimerEvent: {}
+[49.739974] (-) TimerEvent: {}
+[49.841026] (-) TimerEvent: {}
+[49.942177] (-) TimerEvent: {}
+[50.043462] (-) TimerEvent: {}
+[50.144574] (-) TimerEvent: {}
+[50.245695] (-) TimerEvent: {}
+[50.346986] (-) TimerEvent: {}
+[50.448182] (-) TimerEvent: {}
+[50.549206] (-) TimerEvent: {}
+[50.650361] (-) TimerEvent: {}
+[50.751701] (-) TimerEvent: {}
+[50.853018] (-) TimerEvent: {}
+[50.954086] (-) TimerEvent: {}
+[51.055118] (-) TimerEvent: {}
+[51.156321] (-) TimerEvent: {}
+[51.257460] (-) TimerEvent: {}
+[51.358623] (-) TimerEvent: {}
+[51.459708] (-) TimerEvent: {}
+[51.560879] (-) TimerEvent: {}
+[51.661940] (-) TimerEvent: {}
+[51.763066] (-) TimerEvent: {}
+[51.864201] (-) TimerEvent: {}
+[51.965209] (-) TimerEvent: {}
+[52.066245] (-) TimerEvent: {}
+[52.167289] (-) TimerEvent: {}
+[52.268517] (-) TimerEvent: {}
+[52.369644] (-) TimerEvent: {}
+[52.470841] (-) TimerEvent: {}
+[52.572112] (-) TimerEvent: {}
+[52.674203] (-) TimerEvent: {}
+[52.775934] (-) TimerEvent: {}
+[52.877078] (-) TimerEvent: {}
+[52.978125] (-) TimerEvent: {}
+[53.079376] (-) TimerEvent: {}
+[53.181199] (-) TimerEvent: {}
+[53.283286] (-) TimerEvent: {}
+[53.384446] (-) TimerEvent: {}
+[53.485587] (-) TimerEvent: {}
+[53.519984] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[53.585878] (-) TimerEvent: {}
+[53.686946] (-) TimerEvent: {}
+[53.788310] (-) TimerEvent: {}
+[53.890004] (-) TimerEvent: {}
+[53.992235] (-) TimerEvent: {}
+[54.094182] (-) TimerEvent: {}
+[54.196635] (-) TimerEvent: {}
+[54.298342] (-) TimerEvent: {}
+[54.400782] (-) TimerEvent: {}
+[54.502069] (-) TimerEvent: {}
+[54.603651] (-) TimerEvent: {}
+[54.705137] (-) TimerEvent: {}
+[54.806884] (-) TimerEvent: {}
+[54.908753] (-) TimerEvent: {}
+[55.010726] (-) TimerEvent: {}
+[55.112415] (-) TimerEvent: {}
+[55.214502] (-) TimerEvent: {}
+[55.315988] (-) TimerEvent: {}
+[55.417262] (-) TimerEvent: {}
+[55.518354] (-) TimerEvent: {}
+[55.619799] (-) TimerEvent: {}
+[55.721134] (-) TimerEvent: {}
+[55.822901] (-) TimerEvent: {}
+[55.924006] (-) TimerEvent: {}
+[56.025522] (-) TimerEvent: {}
+[56.127014] (-) TimerEvent: {}
+[56.228465] (-) TimerEvent: {}
+[56.329922] (-) TimerEvent: {}
+[56.431243] (-) TimerEvent: {}
+[56.505391] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[56.531506] (-) TimerEvent: {}
+[56.586809] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[56.631850] (-) TimerEvent: {}
+[56.733720] (-) TimerEvent: {}
+[56.835040] (-) TimerEvent: {}
+[56.860079] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[56.862263] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hb/hb_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/hb/hb_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hb'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hb/hb_ws/install/teleop_twist_joy/lib:/home/hb/hb_ws/install/micro_ros_agent/lib:/home/hb/hb_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hb'), ('OLDPWD', '/home/hb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1026'), ('SYSTEMD_EXEC_PID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11495'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hb/hb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hb'), ('JOURNAL_STREAM', '8:24734'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hb-desktop:@/tmp/.ICE-unix/1201,unix/hb-desktop:/tmp/.ICE-unix/1201'), ('INVOCATION_ID', '124d0fa68f244f1c92864c2e684c1e24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IS31L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/serial_communication:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ed762071-af6b-461c-ac5b-7207ad6ea37c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hb/hb_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:/home/hb/hb_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs')]), 'shell': False}
+[56.935350] (-) TimerEvent: {}
+[56.939461] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.942524] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[56.947999] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[56.980700] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/hb/hb_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""\n'}
+[56.982075] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[56.983558] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[56.984745] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[56.986367] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_cartographer.launch.py\n'}
+[56.987543] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[56.989021] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[56.994903] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[56.996251] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[56.997278] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[56.998490] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[56.999655] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[57.010562] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[57.012602] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[57.013518] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[57.014456] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[57.015639] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[57.016751] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[57.017600] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[57.019107] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[57.020943] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[57.021950] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[57.023024] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar_cartographer.lua\n'}
+[57.024164] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[57.025550] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[57.042098] (-) TimerEvent: {}
+[57.044060] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[57.045195] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[57.046336] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[57.047464] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[57.048582] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[57.049727] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[57.051064] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[57.052405] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[57.053596] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[57.055383] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[57.057576] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[57.060460] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[57.061574] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/hb/hb_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[57.062886] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[57.142405] (-) TimerEvent: {}
+[57.244327] (-) TimerEvent: {}
+[57.345609] (-) TimerEvent: {}
+[57.447479] (-) TimerEvent: {}
+[57.461777] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[57.547886] (-) TimerEvent: {}
+[57.649961] (-) TimerEvent: {}
+[57.751634] (-) TimerEvent: {}
+[57.853337] (-) TimerEvent: {}
+[57.954875] (-) TimerEvent: {}
+[58.057298] (-) TimerEvent: {}
+[58.160061] (-) TimerEvent: {}
+[58.262327] (-) TimerEvent: {}
+[58.364563] (-) TimerEvent: {}
+[58.466747] (-) TimerEvent: {}
+[58.568879] (-) TimerEvent: {}
+[58.670739] (-) TimerEvent: {}
+[58.772536] (-) TimerEvent: {}
+[58.874310] (-) TimerEvent: {}
+[58.975332] (-) TimerEvent: {}
+[59.077223] (-) TimerEvent: {}
+[59.179027] (-) TimerEvent: {}
+[59.280799] (-) TimerEvent: {}
+[59.382758] (-) TimerEvent: {}
+[59.484985] (-) TimerEvent: {}
+[59.586957] (-) TimerEvent: {}
+[59.688715] (-) TimerEvent: {}
+[59.790555] (-) TimerEvent: {}
+[59.892456] (-) TimerEvent: {}
+[59.994232] (-) TimerEvent: {}
+[60.095974] (-) TimerEvent: {}
+[60.197648] (-) TimerEvent: {}
+[60.299387] (-) TimerEvent: {}
+[60.401293] (-) TimerEvent: {}
+[60.503129] (-) TimerEvent: {}
+[60.605408] (-) TimerEvent: {}
+[60.707335] (-) TimerEvent: {}
+[60.809286] (-) TimerEvent: {}
+[60.911178] (-) TimerEvent: {}
+[61.012141] (-) TimerEvent: {}
+[61.113931] (-) TimerEvent: {}
+[61.215735] (-) TimerEvent: {}
+[61.317507] (-) TimerEvent: {}
+[61.419321] (-) TimerEvent: {}
+[61.520303] (-) TimerEvent: {}
+[61.621308] (-) TimerEvent: {}
+[61.723164] (-) TimerEvent: {}
+[61.825197] (-) TimerEvent: {}
+[61.927060] (-) TimerEvent: {}
+[62.028908] (-) TimerEvent: {}
+[62.130798] (-) TimerEvent: {}
+[62.232462] (-) TimerEvent: {}
+[62.333545] (-) TimerEvent: {}
+[62.434774] (-) TimerEvent: {}
+[62.536595] (-) TimerEvent: {}
+[62.638563] (-) TimerEvent: {}
+[62.740405] (-) TimerEvent: {}
+[62.842264] (-) TimerEvent: {}
+[62.944046] (-) TimerEvent: {}
+[63.046017] (-) TimerEvent: {}
+[63.147630] (-) TimerEvent: {}
+[63.249323] (-) TimerEvent: {}
+[63.351716] (-) TimerEvent: {}
+[63.453530] (-) TimerEvent: {}
+[63.555392] (-) TimerEvent: {}
+[63.656375] (-) TimerEvent: {}
+[63.757332] (-) TimerEvent: {}
+[63.859164] (-) TimerEvent: {}
+[63.960964] (-) TimerEvent: {}
+[64.061878] (-) TimerEvent: {}
+[64.163561] (-) TimerEvent: {}
+[64.265347] (-) TimerEvent: {}
+[64.367246] (-) TimerEvent: {}
+[64.469144] (-) TimerEvent: {}
+[64.570978] (-) TimerEvent: {}
+[64.672704] (-) TimerEvent: {}
+[64.775187] (-) TimerEvent: {}
+[64.876931] (-) TimerEvent: {}
+[64.977948] (-) TimerEvent: {}
+[65.079577] (-) TimerEvent: {}
+[65.181056] (-) TimerEvent: {}
+[65.282890] (-) TimerEvent: {}
+[65.384691] (-) TimerEvent: {}
+[65.486492] (-) TimerEvent: {}
+[65.588410] (-) TimerEvent: {}
+[65.690230] (-) TimerEvent: {}
+[65.792213] (-) TimerEvent: {}
+[65.894811] (-) TimerEvent: {}
+[65.996228] (-) TimerEvent: {}
+[66.098593] (-) TimerEvent: {}
+[66.201080] (-) TimerEvent: {}
+[66.302797] (-) TimerEvent: {}
+[66.403821] (-) TimerEvent: {}
+[66.505778] (-) TimerEvent: {}
+[66.607688] (-) TimerEvent: {}
+[66.709572] (-) TimerEvent: {}
+[66.811380] (-) TimerEvent: {}
+[66.913062] (-) TimerEvent: {}
+[67.014920] (-) TimerEvent: {}
+[67.116550] (-) TimerEvent: {}
+[67.218436] (-) TimerEvent: {}
+[67.320717] (-) TimerEvent: {}
+[67.423172] (-) TimerEvent: {}
+[67.526179] (-) TimerEvent: {}
+[67.628350] (-) TimerEvent: {}
+[67.730786] (-) TimerEvent: {}
+[67.833437] (-) TimerEvent: {}
+[67.935313] (-) TimerEvent: {}
+[68.036326] (-) TimerEvent: {}
+[68.137347] (-) TimerEvent: {}
+[68.239208] (-) TimerEvent: {}
+[68.341263] (-) TimerEvent: {}
+[68.443320] (-) TimerEvent: {}
+[68.545266] (-) TimerEvent: {}
+[68.647037] (-) TimerEvent: {}
+[68.749285] (-) TimerEvent: {}
+[68.851174] (-) TimerEvent: {}
+[68.952908] (-) TimerEvent: {}
+[69.054892] (-) TimerEvent: {}
+[69.156568] (-) TimerEvent: {}
+[69.257594] (-) TimerEvent: {}
+[69.359424] (-) TimerEvent: {}
+[69.461241] (-) TimerEvent: {}
+[69.562980] (-) TimerEvent: {}
+[69.665085] (-) TimerEvent: {}
+[69.766847] (-) TimerEvent: {}
+[69.868454] (-) TimerEvent: {}
+[69.970273] (-) TimerEvent: {}
+[70.072004] (-) TimerEvent: {}
+[70.173917] (-) TimerEvent: {}
+[70.275643] (-) TimerEvent: {}
+[70.377574] (-) TimerEvent: {}
+[70.479471] (-) TimerEvent: {}
+[70.581459] (-) TimerEvent: {}
+[70.683260] (-) TimerEvent: {}
+[70.784222] (-) TimerEvent: {}
+[70.886131] (-) TimerEvent: {}
+[70.988011] (-) TimerEvent: {}
+[71.090054] (-) TimerEvent: {}
+[71.191500] (-) TimerEvent: {}
+[71.293051] (-) TimerEvent: {}
+[71.394790] (-) TimerEvent: {}
+[71.496701] (-) TimerEvent: {}
+[71.598677] (-) TimerEvent: {}
+[71.700436] (-) TimerEvent: {}
+[71.802126] (-) TimerEvent: {}
+[71.903886] (-) TimerEvent: {}
+[72.005222] (-) TimerEvent: {}
+[72.106272] (-) TimerEvent: {}
+[72.207233] (-) TimerEvent: {}
+[72.308254] (-) TimerEvent: {}
+[72.409276] (-) TimerEvent: {}
+[72.511183] (-) TimerEvent: {}
+[72.613171] (-) TimerEvent: {}
+[72.714949] (-) TimerEvent: {}
+[72.815954] (-) TimerEvent: {}
+[72.916919] (-) TimerEvent: {}
+[73.018744] (-) TimerEvent: {}
+[73.120530] (-) TimerEvent: {}
+[73.222384] (-) TimerEvent: {}
+[73.323436] (-) TimerEvent: {}
+[73.425115] (-) TimerEvent: {}
+[73.526840] (-) TimerEvent: {}
+[73.627878] (-) TimerEvent: {}
+[73.728909] (-) TimerEvent: {}
+[73.830973] (-) TimerEvent: {}
+[73.932700] (-) TimerEvent: {}
+[74.033673] (-) TimerEvent: {}
+[74.135363] (-) TimerEvent: {}
+[74.237110] (-) TimerEvent: {}
+[74.339053] (-) TimerEvent: {}
+[74.440159] (-) TimerEvent: {}
+[74.541090] (-) TimerEvent: {}
+[74.642094] (-) TimerEvent: {}
+[74.743086] (-) TimerEvent: {}
+[74.844908] (-) TimerEvent: {}
+[74.945975] (-) TimerEvent: {}
+[75.046872] (-) TimerEvent: {}
+[75.147751] (-) TimerEvent: {}
+[75.248686] (-) TimerEvent: {}
+[75.349648] (-) TimerEvent: {}
+[75.450662] (-) TimerEvent: {}
+[75.551600] (-) TimerEvent: {}
+[75.652722] (-) TimerEvent: {}
+[75.753628] (-) TimerEvent: {}
+[75.854523] (-) TimerEvent: {}
+[75.955575] (-) TimerEvent: {}
+[76.056544] (-) TimerEvent: {}
+[76.157518] (-) TimerEvent: {}
+[76.259262] (-) TimerEvent: {}
+[76.360213] (-) TimerEvent: {}
+[76.461109] (-) TimerEvent: {}
+[76.561962] (-) TimerEvent: {}
+[76.662879] (-) TimerEvent: {}
+[76.763972] (-) TimerEvent: {}
+[76.864942] (-) TimerEvent: {}
+[76.965949] (-) TimerEvent: {}
+[77.066835] (-) TimerEvent: {}
+[77.167749] (-) TimerEvent: {}
+[77.268668] (-) TimerEvent: {}
+[77.369667] (-) TimerEvent: {}
+[77.470789] (-) TimerEvent: {}
+[77.571695] (-) TimerEvent: {}
+[77.672652] (-) TimerEvent: {}
+[77.773564] (-) TimerEvent: {}
+[77.874559] (-) TimerEvent: {}
+[77.976383] (-) TimerEvent: {}
+[78.078313] (-) TimerEvent: {}
+[78.180221] (-) TimerEvent: {}
+[78.282134] (-) TimerEvent: {}
+[78.383203] (-) TimerEvent: {}
+[78.484867] (-) TimerEvent: {}
+[78.586664] (-) TimerEvent: {}
+[78.688602] (-) TimerEvent: {}
+[78.790420] (-) TimerEvent: {}
+[78.891992] (-) TimerEvent: {}
+[78.993157] (-) TimerEvent: {}
+[79.094296] (-) TimerEvent: {}
+[79.195324] (-) TimerEvent: {}
+[79.296621] (-) TimerEvent: {}
+[79.397821] (-) TimerEvent: {}
+[79.499147] (-) TimerEvent: {}
+[79.600571] (-) TimerEvent: {}
+[79.701957] (-) TimerEvent: {}
+[79.803139] (-) TimerEvent: {}
+[79.904310] (-) TimerEvent: {}
+[80.005527] (-) TimerEvent: {}
+[80.106964] (-) TimerEvent: {}
+[80.208823] (-) TimerEvent: {}
+[80.310628] (-) TimerEvent: {}
+[80.412428] (-) TimerEvent: {}
+[80.514197] (-) TimerEvent: {}
+[80.615860] (-) TimerEvent: {}
+[80.717554] (-) TimerEvent: {}
+[80.819608] (-) TimerEvent: {}
+[80.920995] (-) TimerEvent: {}
+[81.022840] (-) TimerEvent: {}
+[81.124713] (-) TimerEvent: {}
+[81.226717] (-) TimerEvent: {}
+[81.328581] (-) TimerEvent: {}
+[81.430331] (-) TimerEvent: {}
+[81.532114] (-) TimerEvent: {}
+[81.633970] (-) TimerEvent: {}
+[81.734965] (-) TimerEvent: {}
+[81.836805] (-) TimerEvent: {}
+[81.938749] (-) TimerEvent: {}
+[82.039786] (-) TimerEvent: {}
+[82.141518] (-) TimerEvent: {}
+[82.243631] (-) TimerEvent: {}
+[82.345381] (-) TimerEvent: {}
+[82.447224] (-) TimerEvent: {}
+[82.549036] (-) TimerEvent: {}
+[82.650049] (-) TimerEvent: {}
+[82.751933] (-) TimerEvent: {}
+[82.853893] (-) TimerEvent: {}
+[82.955680] (-) TimerEvent: {}
+[83.057688] (-) TimerEvent: {}
+[83.159506] (-) TimerEvent: {}
+[83.260952] (-) TimerEvent: {}
+[83.362536] (-) TimerEvent: {}
+[83.463768] (-) TimerEvent: {}
+[83.565593] (-) TimerEvent: {}
+[83.667425] (-) TimerEvent: {}
+[83.769277] (-) TimerEvent: {}
+[83.870910] (-) TimerEvent: {}
+[83.972665] (-) TimerEvent: {}
+[84.074499] (-) TimerEvent: {}
+[84.175466] (-) TimerEvent: {}
+[84.277383] (-) TimerEvent: {}
+[84.378429] (-) TimerEvent: {}
+[84.480326] (-) TimerEvent: {}
+[84.582161] (-) TimerEvent: {}
+[84.683869] (-) TimerEvent: {}
+[84.785553] (-) TimerEvent: {}
+[84.887447] (-) TimerEvent: {}
+[84.988424] (-) TimerEvent: {}
+[85.090468] (-) TimerEvent: {}
+[85.192295] (-) TimerEvent: {}
+[85.294045] (-) TimerEvent: {}
+[85.395818] (-) TimerEvent: {}
+[85.496883] (-) TimerEvent: {}
+[85.597916] (-) TimerEvent: {}
+[85.699580] (-) TimerEvent: {}
+[85.801355] (-) TimerEvent: {}
+[85.902432] (-) TimerEvent: {}
+[86.003550] (-) TimerEvent: {}
+[86.104765] (-) TimerEvent: {}
+[86.205994] (-) TimerEvent: {}
+[86.307061] (-) TimerEvent: {}
+[86.408849] (-) TimerEvent: {}
+[86.510581] (-) TimerEvent: {}
+[86.612292] (-) TimerEvent: {}
+[86.714336] (-) TimerEvent: {}
+[86.815973] (-) TimerEvent: {}
+[86.917721] (-) TimerEvent: {}
+[87.018948] (-) TimerEvent: {}
+[87.119953] (-) TimerEvent: {}
+[87.221271] (-) TimerEvent: {}
+[87.322587] (-) TimerEvent: {}
+[87.424372] (-) TimerEvent: {}
+[87.527501] (-) TimerEvent: {}
+[87.628721] (-) TimerEvent: {}
+[87.730688] (-) TimerEvent: {}
+[87.832728] (-) TimerEvent: {}
+[87.934700] (-) TimerEvent: {}
+[88.036842] (-) TimerEvent: {}
+[88.138627] (-) TimerEvent: {}
+[88.240463] (-) TimerEvent: {}
+[88.342483] (-) TimerEvent: {}
+[88.444208] (-) TimerEvent: {}
+[88.545165] (-) TimerEvent: {}
+[88.646542] (-) TimerEvent: {}
+[88.747614] (-) TimerEvent: {}
+[88.849316] (-) TimerEvent: {}
+[88.951480] (-) TimerEvent: {}
+[89.053237] (-) TimerEvent: {}
+[89.155235] (-) TimerEvent: {}
+[89.257280] (-) TimerEvent: {}
+[89.359220] (-) TimerEvent: {}
+[89.461044] (-) TimerEvent: {}
+[89.563019] (-) TimerEvent: {}
+[89.663981] (-) TimerEvent: {}
+[89.765905] (-) TimerEvent: {}
+[89.867751] (-) TimerEvent: {}
+[89.969438] (-) TimerEvent: {}
+[90.071568] (-) TimerEvent: {}
+[90.173280] (-) TimerEvent: {}
+[90.274329] (-) TimerEvent: {}
+[90.376116] (-) TimerEvent: {}
+[90.477902] (-) TimerEvent: {}
+[90.578856] (-) TimerEvent: {}
+[90.679805] (-) TimerEvent: {}
+[90.781735] (-) TimerEvent: {}
+[90.882758] (-) TimerEvent: {}
+[90.984630] (-) TimerEvent: {}
+[91.086521] (-) TimerEvent: {}
+[91.188095] (-) TimerEvent: {}
+[91.289882] (-) TimerEvent: {}
+[91.390940] (-) TimerEvent: {}
+[91.492977] (-) TimerEvent: {}
+[91.594031] (-) TimerEvent: {}
+[91.694980] (-) TimerEvent: {}
+[91.796049] (-) TimerEvent: {}
+[91.897678] (-) TimerEvent: {}
+[91.999531] (-) TimerEvent: {}
+[92.101628] (-) TimerEvent: {}
+[92.203463] (-) TimerEvent: {}
+[92.305382] (-) TimerEvent: {}
+[92.407081] (-) TimerEvent: {}
+[92.508846] (-) TimerEvent: {}
+[92.610519] (-) TimerEvent: {}
+[92.711416] (-) TimerEvent: {}
+[92.812364] (-) TimerEvent: {}
+[92.913373] (-) TimerEvent: {}
+[93.015228] (-) TimerEvent: {}
+[93.116219] (-) TimerEvent: {}
+[93.218042] (-) TimerEvent: {}
+[93.319953] (-) TimerEvent: {}
+[93.420968] (-) TimerEvent: {}
+[93.522036] (-) TimerEvent: {}
+[93.623706] (-) TimerEvent: {}
+[93.725469] (-) TimerEvent: {}
+[93.826717] (-) TimerEvent: {}
+[93.929186] (-) TimerEvent: {}
+[94.030755] (-) TimerEvent: {}
+[94.132167] (-) TimerEvent: {}
+[94.233647] (-) TimerEvent: {}
+[94.335090] (-) TimerEvent: {}
+[94.436764] (-) TimerEvent: {}
+[94.538277] (-) TimerEvent: {}
+[94.639245] (-) TimerEvent: {}
+[94.740381] (-) TimerEvent: {}
+[94.841571] (-) TimerEvent: {}
+[95.751307] (-) TimerEvent: {}
+[95.853196] (-) TimerEvent: {}
+[95.955269] (-) TimerEvent: {}
+[96.058142] (-) TimerEvent: {}
+[96.160206] (-) TimerEvent: {}
+[96.261911] (-) TimerEvent: {}
+[96.363097] (-) TimerEvent: {}
+[96.464650] (-) TimerEvent: {}
+[96.567669] (-) TimerEvent: {}
+[96.669989] (-) TimerEvent: {}
+[96.771834] (-) TimerEvent: {}
+[96.873780] (-) TimerEvent: {}
+[96.975706] (-) TimerEvent: {}
+[97.077549] (-) TimerEvent: {}
+[97.178658] (-) TimerEvent: {}
+[97.280796] (-) TimerEvent: {}
+[97.382596] (-) TimerEvent: {}
+[97.483610] (-) TimerEvent: {}
+[97.585315] (-) TimerEvent: {}
+[97.687112] (-) TimerEvent: {}
+[97.788845] (-) TimerEvent: {}
+[97.890776] (-) TimerEvent: {}
+[97.992775] (-) TimerEvent: {}
+[98.094634] (-) TimerEvent: {}
+[98.196498] (-) TimerEvent: {}
+[98.298353] (-) TimerEvent: {}
+[98.400089] (-) TimerEvent: {}
+[98.501233] (-) TimerEvent: {}
+[98.602317] (-) TimerEvent: {}
+[98.703518] (-) TimerEvent: {}
+[98.804763] (-) TimerEvent: {}
+[98.905922] (-) TimerEvent: {}
+[99.006851] (-) TimerEvent: {}
+[99.107751] (-) TimerEvent: {}
+[99.208729] (-) TimerEvent: {}
+[99.309770] (-) TimerEvent: {}
+[99.410736] (-) TimerEvent: {}
+[99.511690] (-) TimerEvent: {}
+[99.612757] (-) TimerEvent: {}
+[99.713605] (-) TimerEvent: {}
+[99.814455] (-) TimerEvent: {}
+[99.925216] (-) TimerEvent: {}
+[100.026226] (-) TimerEvent: {}
+[100.127146] (-) TimerEvent: {}
+[100.228031] (-) TimerEvent: {}
+[100.329001] (-) TimerEvent: {}
+[100.430019] (-) TimerEvent: {}
+[100.531018] (-) TimerEvent: {}
+[100.632037] (-) TimerEvent: {}
+[100.732988] (-) TimerEvent: {}
+[100.834032] (-) TimerEvent: {}
+[100.935189] (-) TimerEvent: {}
+[101.036022] (-) TimerEvent: {}
+[101.136957] (-) TimerEvent: {}
+[101.238393] (-) TimerEvent: {}
+[101.339528] (-) TimerEvent: {}
+[101.440631] (-) TimerEvent: {}
+[101.541546] (-) TimerEvent: {}
+[101.642462] (-) TimerEvent: {}
+[101.743315] (-) TimerEvent: {}
+[101.844181] (-) TimerEvent: {}
+[101.945053] (-) TimerEvent: {}
+[102.045979] (-) TimerEvent: {}
+[102.146865] (-) TimerEvent: {}
+[102.247728] (-) TimerEvent: {}
+[102.348684] (-) TimerEvent: {}
+[102.449564] (-) TimerEvent: {}
+[102.550510] (-) TimerEvent: {}
+[102.651496] (-) TimerEvent: {}
+[102.752994] (-) TimerEvent: {}
+[102.854052] (-) TimerEvent: {}
+[102.914184] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rf2o_laser_odometry_node.dir/build.make:90: CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o] Error 1\n'}
+[102.915101] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rf2o_laser_odometry_node.dir/all] Error 2\n'}
+[102.915673] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[102.954216] (-) TimerEvent: {}
+[103.055037] (-) TimerEvent: {}
+[103.156121] (-) TimerEvent: {}
+[103.226669] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rf2o_laser_odometry.dir/build.make:76: CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o] Error 1\n'}
+[103.227363] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rf2o_laser_odometry.dir/all] Error 2\n'}
+[103.227832] (rf2o_laser_odometry) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[103.234050] (rf2o_laser_odometry) CommandEnded: {'returncode': 2}
+[103.256372] (-) TimerEvent: {}
+[103.357146] (-) TimerEvent: {}
+[103.435484] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 2}
+[103.447153] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[1.405s] Invoking command in '/home/hb/hb_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4
+[1.797s] [  7%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[1.801s] [ 14%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[1.823s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.848s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.701s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.184s] [ 35%] Built target gtest_main
+[27.234s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[29.037s] [ 42%] Built target usb_cam
+[29.202s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[30.367s] In file included from [01m[K/home/hb/hb_ws/src/usb_cam/src/ros2/usb_cam_node.cpp:34[m[K:
+[30.368s] [01m[K/home/hb/hb_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+[30.369s]    38 | #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+[30.371s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.372s] compilation terminated.
+[30.393s] gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:76: CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o] Error 1
+[30.394s] gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/usb_cam_node.dir/all] Error 2
+[30.395s] gmake[1]: *** Waiting for unfinished jobs....
+[35.073s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[35.543s] [ 57%] Built target gtest
+[36.196s] [ 64%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[37.506s] [ 64%] Built target usb_cam_node_exe
+[37.515s] gmake: *** [Makefile:146: all] Error 2
+[37.527s] Invoked command in '/home/hb/hb_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/home/hb/hb_ws/install/ydlidar_ros2_driver:/home/hb/hb_ws/install/serial_communication:/opt/ros/humble:/home/hb/hb_ws/install/teleop_twist_joy:/home/hb/hb_ws/install/micro_ros_setup:/home/hb/hb_ws/install/micro_ros_agent:/home/hb/hb_ws/install/micro_ros_msgs /usr/bin/cmake --build /home/hb/hb_ws/build/usb_cam -- -j4 -l4

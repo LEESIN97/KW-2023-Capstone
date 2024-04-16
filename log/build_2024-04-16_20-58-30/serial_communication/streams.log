@@ -1,0 +1,21 @@
+[4.050s] Invoking command in '/home/hb/hb_ws/src/serial_communication': PYTHONPATH=/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communication build --build-base /home/hb/hb_ws/build/serial_communication/build install --record /home/hb/hb_ws/build/serial_communication/install.log --single-version-externally-managed install_data
+[5.240s] running egg_info
+[5.244s] writing ../../build/serial_communication/serial_communication.egg-info/PKG-INFO
+[5.245s] writing dependency_links to ../../build/serial_communication/serial_communication.egg-info/dependency_links.txt
+[5.246s] writing entry points to ../../build/serial_communication/serial_communication.egg-info/entry_points.txt
+[5.247s] writing requirements to ../../build/serial_communication/serial_communication.egg-info/requires.txt
+[5.248s] writing top-level names to ../../build/serial_communication/serial_communication.egg-info/top_level.txt
+[5.256s] reading manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'
+[5.260s] writing manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'
+[5.261s] running build
+[5.261s] running build_py
+[5.262s] running install
+[5.264s] running install_lib
+[5.270s] running install_data
+[5.270s] running install_egg_info
+[5.277s] removing '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[5.278s] Copying ../../build/serial_communication/serial_communication.egg-info to /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info
+[5.284s] running install_scripts
+[5.371s] Installing teleop_serial script to /home/hb/hb_ws/install/serial_communication/lib/serial_communication
+[5.372s] writing list of installed files to '/home/hb/hb_ws/build/serial_communication/install.log'
+[5.505s] Invoked command in '/home/hb/hb_ws/src/serial_communication' returned '0': PYTHONPATH=/home/hb/hb_ws/build/serial_communication/prefix_override:/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communication build --build-base /home/hb/hb_ws/build/serial_communication/build install --record /home/hb/hb_ws/build/serial_communication/install.log --single-version-externally-managed install_data

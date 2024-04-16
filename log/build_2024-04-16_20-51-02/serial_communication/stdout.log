@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/serial_communication/serial_communication.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_communication/serial_communication.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_communication/serial_communication.egg-info/entry_points.txt
+writing requirements to ../../build/serial_communication/serial_communication.egg-info/requires.txt
+writing top-level names to ../../build/serial_communication/serial_communication.egg-info/top_level.txt
+reading manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'
+writing manifest file '../../build/serial_communication/serial_communication.egg-info/SOURCES.txt'
+running build
+running build_py
+copying serial_communication/teleop_serial.py -> /home/hb/hb_ws/build/serial_communication/build/lib/serial_communication
+copying serial_communication/__init__.py -> /home/hb/hb_ws/build/serial_communication/build/lib/serial_communication
+running install
+running install_lib
+copying /home/hb/hb_ws/build/serial_communication/build/lib/serial_communication/teleop_serial.py -> /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication
+copying /home/hb/hb_ws/build/serial_communication/build/lib/serial_communication/__init__.py -> /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication
+byte-compiling /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication/teleop_serial.py to teleop_serial.cpython-310.pyc
+byte-compiling /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/serial_communication -> /home/hb/hb_ws/install/serial_communication/share/ament_index/resource_index/packages
+copying package.xml -> /home/hb/hb_ws/install/serial_communication/share/serial_communication
+running install_egg_info
+removing '/home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/serial_communication/serial_communication.egg-info to /home/hb/hb_ws/install/serial_communication/lib/python3.10/site-packages/serial_communication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_serial script to /home/hb/hb_ws/install/serial_communication/lib/serial_communication
+writing list of installed files to '/home/hb/hb_ws/build/serial_communication/install.log'

@@ -1,0 +1,41 @@
+[0.096s] Invoking command in '/home/hb/hb_ws/build/teleop_twist_joy': /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy
+[0.306s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.307s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.308s]   CMake.
+[0.308s] 
+[0.308s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.309s]   CMake that the project does not need compatibility with older versions.
+[0.309s] 
+[0.310s] [0m
+[0.664s] -- The C compiler identification is GNU 11.4.0
+[1.438s] -- The CXX compiler identification is GNU 11.4.0
+[1.500s] -- Detecting C compiler ABI info
+[1.859s] -- Detecting C compiler ABI info - done
+[1.888s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.892s] -- Detecting C compile features
+[1.895s] -- Detecting C compile features - done
+[1.915s] -- Detecting CXX compiler ABI info
+[2.305s] -- Detecting CXX compiler ABI info - done
+[2.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.337s] -- Detecting CXX compile features
+[2.339s] -- Detecting CXX compile features - done
+[2.536s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.537s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.537s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.537s]   CMake did not find one.
+[2.538s] 
+[2.538s]   Could not find a package configuration file provided by "catkin" with any
+[2.538s]   of the following names:
+[2.539s] 
+[2.540s]     catkinConfig.cmake
+[2.540s]     catkin-config.cmake
+[2.541s] 
+[2.542s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.542s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.543s]   provides a separate development package or SDK, be sure it has been
+[2.543s]   installed.
+[2.544s] 
+[2.544s] [0m
+[2.545s] -- Configuring incomplete, errors occurred!
+[2.545s] See also "/home/hb/hb_ws/build/teleop_twist_joy/CMakeFiles/CMakeOutput.log".
+[2.550s] Invoked command in '/home/hb/hb_ws/build/teleop_twist_joy' returned '1': /usr/bin/cmake /home/hb/hb_ws/src/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hb/hb_ws/install/teleop_twist_joy

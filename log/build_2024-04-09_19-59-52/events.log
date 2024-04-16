@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001069] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001598] (-) JobUnselected: {'identifier': 'serial_communication'}
+[0.001801] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.001983] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.002683] (-) EventReactorShutdown: {}
